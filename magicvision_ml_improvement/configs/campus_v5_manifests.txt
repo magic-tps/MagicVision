@@ -1,0 +1,3 @@
+magicvision_ml_improvement/datasets/expanded_campus_v4/manifest.jsonl
+magicvision_ml_improvement/datasets/campus_additions_v5/roadwork/manifest.jsonl
+magicvision_ml_improvement/datasets/campus_additions_v5/hazards_robots/manifest.jsonl

@@ -1,0 +1,9 @@
+ultralytics==8.4.56
+Pillow==12.1.1
+PyYAML>=6,<7
+requests>=2.32,<3
+ImageHash>=4.3,<5
+psutil>=5.9
+pytest>=8
+pyarrow>=19,<24
+# Install a CUDA-compatible PyTorch separately; cloud image pins 2.7.1+cu118.

@@ -1,0 +1,2 @@
+-r ../lambda/requirements.txt
+cryptography==50.0.1

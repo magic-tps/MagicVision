@@ -1,0 +1,1462 @@
+{
+  "scope": "Local six-image diagnostic, legacy 10-class detector; no campus22 checkpoint, no camera calibration, no HTTP latency",
+  "torch": "2.11.0+cu128",
+  "ultralytics": "8.4.159",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 2070 with Max-Q Design",
+  "detector_sha256": "704361e5746e23160b95976d342484d250a7931fabbbe798dd1d4e48d269367f",
+  "depth_sha256": "c0ff310571f0f159436e95a2a4fa3f8c40e1fbf36fac66a211347bd189990165",
+  "metric_error": null,
+  "training_performed": false,
+  "results": {
+    "sequential": {
+      "samples": [
+        {
+          "frame_id": "legacy_road_traffic_filtered_1653384963124_jpg.rf.bf7dc19c82723a386ea23e9ab51218d3",
+          "width": 640,
+          "height": 640,
+          "detection_ms": 58.35639999713749,
+          "depth_ms": 34.02829996775836,
+          "fusion_ms": 12.013700034003705,
+          "total_ms": 113.59020002419129,
+          "depth_min": 1.9575706720352173,
+          "depth_max": 6.148403644561768,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 409600,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": [
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.8916890025138855,
+              "bbox": {
+                "left": 0.21782182157039642,
+                "top": 0.5500637888908386,
+                "right": 0.6024743318557739,
+                "bottom": 0.8458169102668762
+              },
+              "label": "stairs",
+              "distance_raw_m": 3.6406774520874023,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "center",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                188,
+                503,
+                337,
+                538
+              ],
+              "depth_quantiles_raw": {
+                "p25": 3.6406774520874023,
+                "p50": 3.685791254043579
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": true,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 250.89168900251389,
+              "message": "Cuidado. Escalera al frente."
+            },
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.7387353181838989,
+              "bbox": {
+                "left": 0.4276478886604309,
+                "top": 0.600267231464386,
+                "right": 0.8943659663200378,
+                "bottom": 0.8572961091995239
+              },
+              "label": "stairs",
+              "distance_raw_m": 3.314194977283478,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                333,
+                515,
+                513,
+                546
+              ],
+              "depth_quantiles_raw": {
+                "p25": 3.314194977283478,
+                "p50": 3.4374921321868896
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.7387353181839,
+              "message": "Cuidado. Escalera a la derecha."
+            },
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.5780630111694336,
+              "bbox": {
+                "left": 0.0018586397636681795,
+                "top": 0.5912728309631348,
+                "right": 0.2802394926548004,
+                "bottom": 0.8424340486526489
+              },
+              "label": "stairs",
+              "distance_raw_m": 3.6177932620048523,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "left",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                36,
+                507,
+                144,
+                536
+              ],
+              "depth_quantiles_raw": {
+                "p25": 3.6177932620048523,
+                "p50": 3.6721086502075195
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.57806301116943,
+              "message": "Cuidado. Escalera a la izquierda."
+            },
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.3244631886482239,
+              "bbox": {
+                "left": 0.7035146951675415,
+                "top": 0.680839478969574,
+                "right": 0.9987301230430603,
+                "bottom": 0.9997754096984863
+              },
+              "label": "stairs",
+              "distance_raw_m": 2.1744813919067383,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                488,
+                599,
+                602,
+                636
+              ],
+              "depth_quantiles_raw": {
+                "p25": 2.1744813919067383,
+                "p50": 2.2182021141052246
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.32446318864822,
+              "message": "Cuidado. Escalera a la derecha."
+            }
+          ]
+        },
+        {
+          "frame_id": "legacy_road_traffic_filtered_1655168443331_jpg.rf.5cc0eddc1bccefde281465b627928b06",
+          "width": 640,
+          "height": 640,
+          "detection_ms": 54.70630002673715,
+          "depth_ms": 38.33360003773123,
+          "fusion_ms": 9.874299983493984,
+          "total_ms": 111.57020000973716,
+          "depth_min": 3.1193695068359375,
+          "depth_max": 26.450443267822266,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 409600,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": [
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.9603750109672546,
+              "bbox": {
+                "left": 0.8531171083450317,
+                "top": 0.38302868604660034,
+                "right": 0.9603881239891052,
+                "bottom": 0.47617197036743164
+              },
+              "label": "stairs",
+              "distance_raw_m": 13.430293798446655,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                559,
+                292,
+                601,
+                304
+              ],
+              "depth_quantiles_raw": {
+                "p25": 13.430293798446655,
+                "p50": 13.613595962524414
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.96037501096725,
+              "message": "Cuidado. Escalera a la derecha."
+            },
+            {
+              "class_id": 3,
+              "class_name": "bus",
+              "confidence": 0.625003457069397,
+              "bbox": {
+                "left": 0.0010878563625738025,
+                "top": 0.35972529649734497,
+                "right": 0.5835208892822266,
+                "bottom": 0.53759765625
+              },
+              "label": "bus",
+              "distance_raw_m": 6.052822828292847,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "left",
+              "risk": "medium",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                93,
+                304,
+                281,
+                339
+              ],
+              "depth_quantiles_raw": {
+                "p25": 6.052822828292847,
+                "p50": 6.312623023986816
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 120.6250034570694,
+              "message": "Autobús a la izquierda."
+            },
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.453216016292572,
+              "bbox": {
+                "left": 0.8777862787246704,
+                "top": 0.38185179233551025,
+                "right": 0.958099365234375,
+                "bottom": 0.4614933133125305
+              },
+              "label": "stairs",
+              "distance_raw_m": 13.901466131210327,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                572,
+                285,
+                603,
+                295
+              ],
+              "depth_quantiles_raw": {
+                "p25": 13.901466131210327,
+                "p50": 14.01091480255127
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.45321601629257,
+              "message": "Cuidado. Escalera a la derecha."
+            }
+          ]
+        },
+        {
+          "frame_id": "openimages_campus_v4_000477fbd201b1ff",
+          "width": 360,
+          "height": 640,
+          "detection_ms": 114.3343000439927,
+          "depth_ms": 30.738100002054125,
+          "fusion_ms": 2.3098000092431903,
+          "total_ms": 150.60599998105317,
+          "depth_min": 0.8984600901603699,
+          "depth_max": 3.1706314086914062,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 230400,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": []
+        },
+        {
+          "frame_id": "openimages_campus_v4_00234d4ba421fac4",
+          "width": 640,
+          "height": 640,
+          "detection_ms": 35.6624000123702,
+          "depth_ms": 31.31690004374832,
+          "fusion_ms": 4.581700020935386,
+          "total_ms": 77.28840003255755,
+          "depth_min": 0.881931483745575,
+          "depth_max": 4.017159938812256,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 409600,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": [
+            {
+              "class_id": 0,
+              "class_name": "person",
+              "confidence": 0.9048332571983337,
+              "bbox": {
+                "left": 0.5467814803123474,
+                "top": 0.31229954957962036,
+                "right": 0.7461312413215637,
+                "bottom": 0.8241125345230103
+              },
+              "label": "person",
+              "distance_raw_m": 2.7839165925979614,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "medium",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                381,
+                412,
+                446,
+                512
+              ],
+              "depth_quantiles_raw": {
+                "p25": 2.7839165925979614,
+                "p50": 2.7922677993774414
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 120.90483325719833,
+              "message": "Persona a la derecha."
+            },
+            {
+              "class_id": 0,
+              "class_name": "person",
+              "confidence": 0.4070262014865875,
+              "bbox": {
+                "left": 0.6773795485496521,
+                "top": 0.31700029969215393,
+                "right": 0.7484187483787537,
+                "bottom": 0.831277072429657
+              },
+              "label": "person",
+              "distance_raw_m": 2.745436191558838,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                444,
+                416,
+                468,
+                516
+              ],
+              "depth_quantiles_raw": {
+                "p25": 2.745436191558838,
+                "p50": 2.797335147857666
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.407026201486588,
+              "message": "Persona a la derecha."
+            }
+          ]
+        },
+        {
+          "frame_id": "trans10k_glass_test-00000-of-00001_00258",
+          "width": 480,
+          "height": 640,
+          "detection_ms": 110.35229999106377,
+          "depth_ms": 30.246400041505694,
+          "fusion_ms": 4.286399984266609,
+          "total_ms": 149.67189996968955,
+          "depth_min": 1.9595544338226318,
+          "depth_max": 4.4304962158203125,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 307200,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": []
+        },
+        {
+          "frame_id": "trans10k_glass_test-00000-of-00001_00291",
+          "width": 640,
+          "height": 480,
+          "detection_ms": 101.00380005314946,
+          "depth_ms": 30.333800008520484,
+          "fusion_ms": 6.278600019868463,
+          "total_ms": 141.9029000098817,
+          "depth_min": 4.088831424713135,
+          "depth_max": 18.234058380126953,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 307200,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": [
+            {
+              "class_id": 0,
+              "class_name": "person",
+              "confidence": 0.7787383794784546,
+              "bbox": {
+                "left": 0.719901978969574,
+                "top": 0.5766203999519348,
+                "right": 0.8062893748283386,
+                "bottom": 0.7974720597267151
+              },
+              "label": "person",
+              "distance_raw_m": 6.134084224700928,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                474,
+                345,
+                503,
+                378
+              ],
+              "depth_quantiles_raw": {
+                "p25": 6.134084224700928,
+                "p50": 6.192050933837891
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.778738379478455,
+              "message": "Persona a la derecha."
+            },
+            {
+              "class_id": 1,
+              "class_name": "car",
+              "confidence": 0.7491692900657654,
+              "bbox": {
+                "left": 0.7241469621658325,
+                "top": 0.524742603302002,
+                "right": 0.8068853616714478,
+                "bottom": 0.5567059516906738
+              },
+              "label": "car",
+              "distance_raw_m": 8.346427917480469,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                476,
+                261,
+                504,
+                267
+              ],
+              "depth_quantiles_raw": {
+                "p25": 8.346427917480469,
+                "p50": 8.399421691894531
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.749169290065765,
+              "message": "Auto a la derecha."
+            },
+            {
+              "class_id": 1,
+              "class_name": "car",
+              "confidence": 0.7357034087181091,
+              "bbox": {
+                "left": 0.5288721323013306,
+                "top": 0.5535706877708435,
+                "right": 0.7290183901786804,
+                "bottom": 0.6540231704711914
+              },
+              "label": "car",
+              "distance_raw_m": 8.700533866882324,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                370,
+                297,
+                435,
+                312
+              ],
+              "depth_quantiles_raw": {
+                "p25": 8.700533866882324,
+                "p50": 8.853581428527832
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.73570340871811,
+              "message": "Auto a la derecha."
+            },
+            {
+              "class_id": 1,
+              "class_name": "car",
+              "confidence": 0.4770335853099823,
+              "bbox": {
+                "left": 0.9650565385818481,
+                "top": 0.5710533261299133,
+                "right": 1.0,
+                "bottom": 0.6217867732048035
+              },
+              "label": "car",
+              "distance_raw_m": 6.70593535900116,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                623,
+                289,
+                635,
+                298
+              ],
+              "depth_quantiles_raw": {
+                "p25": 6.70593535900116,
+                "p50": 6.732946395874023
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.477033585309982,
+              "message": "Auto a la derecha."
+            },
+            {
+              "class_id": 0,
+              "class_name": "person",
+              "confidence": 0.4360637962818146,
+              "bbox": {
+                "left": 0.773717999458313,
+                "top": 0.4858865439891815,
+                "right": 0.7887013554573059,
+                "bottom": 0.5319675803184509
+              },
+              "label": "person",
+              "distance_raw_m": 8.380934715270996,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                497,
+                247,
+                503,
+                255
+              ],
+              "depth_quantiles_raw": {
+                "p25": 8.380934715270996,
+                "p50": 8.392744064331055
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.436063796281815,
+              "message": "Persona a la derecha."
+            },
+            {
+              "class_id": 1,
+              "class_name": "car",
+              "confidence": 0.36241504549980164,
+              "bbox": {
+                "left": 0.6667876243591309,
+                "top": 0.5237514972686768,
+                "right": 0.7125752568244934,
+                "bottom": 0.5493638515472412
+              },
+              "label": "car",
+              "distance_raw_m": 9.063370704650879,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                434,
+                259,
+                449,
+                264
+              ],
+              "depth_quantiles_raw": {
+                "p25": 9.063370704650879,
+                "p50": 9.125754356384277
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.3624150454998,
+              "message": "Auto a la derecha."
+            },
+            {
+              "class_id": 3,
+              "class_name": "bus",
+              "confidence": 0.3001237213611603,
+              "bbox": {
+                "left": 0.9645846486091614,
+                "top": 0.5218876004219055,
+                "right": 0.9997897148132324,
+                "bottom": 0.6216036677360535
+              },
+              "label": "bus",
+              "distance_raw_m": 6.766148090362549,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                622,
+                281,
+                635,
+                296
+              ],
+              "depth_quantiles_raw": {
+                "p25": 6.766148090362549,
+                "p50": 6.806220531463623
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.30012372136116,
+              "message": "Autobús a la derecha."
+            }
+          ]
+        }
+      ],
+      "mean_total_ms": 124.10493333785173,
+      "processing_fps_reciprocal": 8.057697410607304,
+      "peak_gpu_allocated_bytes": 296477184,
+      "peak_gpu_reserved_bytes": 325058560
+    },
+    "concurrent": {
+      "samples": [
+        {
+          "frame_id": "legacy_road_traffic_filtered_1653384963124_jpg.rf.bf7dc19c82723a386ea23e9ab51218d3",
+          "width": 640,
+          "height": 640,
+          "detection_ms": 102.57789999013767,
+          "depth_ms": 86.14410000154749,
+          "fusion_ms": 6.385100015904754,
+          "total_ms": 110.1626000017859,
+          "depth_min": 1.9575706720352173,
+          "depth_max": 6.148403644561768,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 409600,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": [
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.8916890025138855,
+              "bbox": {
+                "left": 0.21782182157039642,
+                "top": 0.5500637888908386,
+                "right": 0.6024743318557739,
+                "bottom": 0.8458169102668762
+              },
+              "label": "stairs",
+              "distance_raw_m": 3.6406774520874023,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "center",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                188,
+                503,
+                337,
+                538
+              ],
+              "depth_quantiles_raw": {
+                "p25": 3.6406774520874023,
+                "p50": 3.685791254043579
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": true,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 250.89168900251389,
+              "message": "Cuidado. Escalera al frente."
+            },
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.7387353181838989,
+              "bbox": {
+                "left": 0.4276478886604309,
+                "top": 0.600267231464386,
+                "right": 0.8943659663200378,
+                "bottom": 0.8572961091995239
+              },
+              "label": "stairs",
+              "distance_raw_m": 3.314194977283478,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                333,
+                515,
+                513,
+                546
+              ],
+              "depth_quantiles_raw": {
+                "p25": 3.314194977283478,
+                "p50": 3.4374921321868896
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.7387353181839,
+              "message": "Cuidado. Escalera a la derecha."
+            },
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.5780630111694336,
+              "bbox": {
+                "left": 0.0018586397636681795,
+                "top": 0.5912728309631348,
+                "right": 0.2802394926548004,
+                "bottom": 0.8424340486526489
+              },
+              "label": "stairs",
+              "distance_raw_m": 3.6177932620048523,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "left",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                36,
+                507,
+                144,
+                536
+              ],
+              "depth_quantiles_raw": {
+                "p25": 3.6177932620048523,
+                "p50": 3.6721086502075195
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.57806301116943,
+              "message": "Cuidado. Escalera a la izquierda."
+            },
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.3244631886482239,
+              "bbox": {
+                "left": 0.7035146951675415,
+                "top": 0.680839478969574,
+                "right": 0.9987301230430603,
+                "bottom": 0.9997754096984863
+              },
+              "label": "stairs",
+              "distance_raw_m": 2.1744813919067383,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                488,
+                599,
+                602,
+                636
+              ],
+              "depth_quantiles_raw": {
+                "p25": 2.1744813919067383,
+                "p50": 2.2182021141052246
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.32446318864822,
+              "message": "Cuidado. Escalera a la derecha."
+            }
+          ]
+        },
+        {
+          "frame_id": "legacy_road_traffic_filtered_1655168443331_jpg.rf.5cc0eddc1bccefde281465b627928b06",
+          "width": 640,
+          "height": 640,
+          "detection_ms": 62.203000008594245,
+          "depth_ms": 51.81749997427687,
+          "fusion_ms": 6.763899989891797,
+          "total_ms": 69.18839999707416,
+          "depth_min": 3.1193695068359375,
+          "depth_max": 26.450443267822266,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 409600,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": [
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.9603750109672546,
+              "bbox": {
+                "left": 0.8531171083450317,
+                "top": 0.38302868604660034,
+                "right": 0.9603881239891052,
+                "bottom": 0.47617197036743164
+              },
+              "label": "stairs",
+              "distance_raw_m": 13.430293798446655,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                559,
+                292,
+                601,
+                304
+              ],
+              "depth_quantiles_raw": {
+                "p25": 13.430293798446655,
+                "p50": 13.613595962524414
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.96037501096725,
+              "message": "Cuidado. Escalera a la derecha."
+            },
+            {
+              "class_id": 3,
+              "class_name": "bus",
+              "confidence": 0.625003457069397,
+              "bbox": {
+                "left": 0.0010878563625738025,
+                "top": 0.35972529649734497,
+                "right": 0.5835208892822266,
+                "bottom": 0.53759765625
+              },
+              "label": "bus",
+              "distance_raw_m": 6.052822828292847,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "left",
+              "risk": "medium",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                93,
+                304,
+                281,
+                339
+              ],
+              "depth_quantiles_raw": {
+                "p25": 6.052822828292847,
+                "p50": 6.312623023986816
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 120.6250034570694,
+              "message": "Autobús a la izquierda."
+            },
+            {
+              "class_id": 5,
+              "class_name": "stairs",
+              "confidence": 0.453216016292572,
+              "bbox": {
+                "left": 0.8777862787246704,
+                "top": 0.38185179233551025,
+                "right": 0.958099365234375,
+                "bottom": 0.4614933133125305
+              },
+              "label": "stairs",
+              "distance_raw_m": 13.901466131210327,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "high",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                572,
+                285,
+                603,
+                295
+              ],
+              "depth_quantiles_raw": {
+                "p25": 13.901466131210327,
+                "p50": 14.01091480255127
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "critical",
+              "hazard_score": 230.45321601629257,
+              "message": "Cuidado. Escalera a la derecha."
+            }
+          ]
+        },
+        {
+          "frame_id": "openimages_campus_v4_000477fbd201b1ff",
+          "width": 360,
+          "height": 640,
+          "detection_ms": 98.56170002603903,
+          "depth_ms": 80.7498000212945,
+          "fusion_ms": 1.7189000500366092,
+          "total_ms": 100.54199997102842,
+          "depth_min": 0.8984600901603699,
+          "depth_max": 3.1706314086914062,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 230400,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": []
+        },
+        {
+          "frame_id": "openimages_campus_v4_00234d4ba421fac4",
+          "width": 640,
+          "height": 640,
+          "detection_ms": 58.9192999759689,
+          "depth_ms": 45.58719997294247,
+          "fusion_ms": 8.358399965800345,
+          "total_ms": 67.55480001447722,
+          "depth_min": 0.881931483745575,
+          "depth_max": 4.017159938812256,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 409600,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": [
+            {
+              "class_id": 0,
+              "class_name": "person",
+              "confidence": 0.9048332571983337,
+              "bbox": {
+                "left": 0.5467814803123474,
+                "top": 0.31229954957962036,
+                "right": 0.7461312413215637,
+                "bottom": 0.8241125345230103
+              },
+              "label": "person",
+              "distance_raw_m": 2.7839165925979614,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "medium",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                381,
+                412,
+                446,
+                512
+              ],
+              "depth_quantiles_raw": {
+                "p25": 2.7839165925979614,
+                "p50": 2.7922677993774414
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 120.90483325719833,
+              "message": "Persona a la derecha."
+            },
+            {
+              "class_id": 0,
+              "class_name": "person",
+              "confidence": 0.4070262014865875,
+              "bbox": {
+                "left": 0.6773795485496521,
+                "top": 0.31700029969215393,
+                "right": 0.7484187483787537,
+                "bottom": 0.831277072429657
+              },
+              "label": "person",
+              "distance_raw_m": 2.745436191558838,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                444,
+                416,
+                468,
+                516
+              ],
+              "depth_quantiles_raw": {
+                "p25": 2.745436191558838,
+                "p50": 2.797335147857666
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.407026201486588,
+              "message": "Persona a la derecha."
+            }
+          ]
+        },
+        {
+          "frame_id": "trans10k_glass_test-00000-of-00001_00258",
+          "width": 480,
+          "height": 640,
+          "detection_ms": 99.31680001318455,
+          "depth_ms": 95.8295000018552,
+          "fusion_ms": 3.7062999908812344,
+          "total_ms": 104.91000005276874,
+          "depth_min": 1.9595544338226318,
+          "depth_max": 4.4304962158203125,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 307200,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": []
+        },
+        {
+          "frame_id": "trans10k_glass_test-00000-of-00001_00291",
+          "width": 640,
+          "height": 480,
+          "detection_ms": 113.14169998513535,
+          "depth_ms": 82.30910002021119,
+          "fusion_ms": 11.46920002065599,
+          "total_ms": 124.89859998458996,
+          "depth_min": 4.088831424713135,
+          "depth_max": 18.234058380126953,
+          "diagnostics": {
+            "invalid_pixels": 0,
+            "total_pixels": 307200,
+            "valid_fraction": 1.0,
+            "nan_pixels": 0,
+            "infinite_pixels": 0,
+            "negative_pixels": 0
+          },
+          "detections": [
+            {
+              "class_id": 0,
+              "class_name": "person",
+              "confidence": 0.7787383794784546,
+              "bbox": {
+                "left": 0.719901978969574,
+                "top": 0.5766203999519348,
+                "right": 0.8062893748283386,
+                "bottom": 0.7974720597267151
+              },
+              "label": "person",
+              "distance_raw_m": 6.134084224700928,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                474,
+                345,
+                503,
+                378
+              ],
+              "depth_quantiles_raw": {
+                "p25": 6.134084224700928,
+                "p50": 6.192050933837891
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.778738379478455,
+              "message": "Persona a la derecha."
+            },
+            {
+              "class_id": 1,
+              "class_name": "car",
+              "confidence": 0.7491692900657654,
+              "bbox": {
+                "left": 0.7241469621658325,
+                "top": 0.524742603302002,
+                "right": 0.8068853616714478,
+                "bottom": 0.5567059516906738
+              },
+              "label": "car",
+              "distance_raw_m": 8.346427917480469,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                476,
+                261,
+                504,
+                267
+              ],
+              "depth_quantiles_raw": {
+                "p25": 8.346427917480469,
+                "p50": 8.399421691894531
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.749169290065765,
+              "message": "Auto a la derecha."
+            },
+            {
+              "class_id": 1,
+              "class_name": "car",
+              "confidence": 0.7357034087181091,
+              "bbox": {
+                "left": 0.5288721323013306,
+                "top": 0.5535706877708435,
+                "right": 0.7290183901786804,
+                "bottom": 0.6540231704711914
+              },
+              "label": "car",
+              "distance_raw_m": 8.700533866882324,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                370,
+                297,
+                435,
+                312
+              ],
+              "depth_quantiles_raw": {
+                "p25": 8.700533866882324,
+                "p50": 8.853581428527832
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.73570340871811,
+              "message": "Auto a la derecha."
+            },
+            {
+              "class_id": 1,
+              "class_name": "car",
+              "confidence": 0.4770335853099823,
+              "bbox": {
+                "left": 0.9650565385818481,
+                "top": 0.5710533261299133,
+                "right": 1.0,
+                "bottom": 0.6217867732048035
+              },
+              "label": "car",
+              "distance_raw_m": 6.70593535900116,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                623,
+                289,
+                635,
+                298
+              ],
+              "depth_quantiles_raw": {
+                "p25": 6.70593535900116,
+                "p50": 6.732946395874023
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.477033585309982,
+              "message": "Auto a la derecha."
+            },
+            {
+              "class_id": 0,
+              "class_name": "person",
+              "confidence": 0.4360637962818146,
+              "bbox": {
+                "left": 0.773717999458313,
+                "top": 0.4858865439891815,
+                "right": 0.7887013554573059,
+                "bottom": 0.5319675803184509
+              },
+              "label": "person",
+              "distance_raw_m": 8.380934715270996,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                497,
+                247,
+                503,
+                255
+              ],
+              "depth_quantiles_raw": {
+                "p25": 8.380934715270996,
+                "p50": 8.392744064331055
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.436063796281815,
+              "message": "Persona a la derecha."
+            },
+            {
+              "class_id": 1,
+              "class_name": "car",
+              "confidence": 0.36241504549980164,
+              "bbox": {
+                "left": 0.6667876243591309,
+                "top": 0.5237514972686768,
+                "right": 0.7125752568244934,
+                "bottom": 0.5493638515472412
+              },
+              "label": "car",
+              "distance_raw_m": 9.063370704650879,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                434,
+                259,
+                449,
+                264
+              ],
+              "depth_quantiles_raw": {
+                "p25": 9.063370704650879,
+                "p50": 9.125754356384277
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.3624150454998,
+              "message": "Auto a la derecha."
+            },
+            {
+              "class_id": 3,
+              "class_name": "bus",
+              "confidence": 0.3001237213611603,
+              "bbox": {
+                "left": 0.9645846486091614,
+                "top": 0.5218876004219055,
+                "right": 0.9997897148132324,
+                "bottom": 0.6216036677360535
+              },
+              "label": "bus",
+              "distance_raw_m": 6.766148090362549,
+              "distance_m": null,
+              "distance_smoothed_m": null,
+              "distance_approx_m": null,
+              "direction": "right",
+              "risk": "low",
+              "track_id": null,
+              "approaching": false,
+              "depth_status": "uncalibrated",
+              "depth_roi": [
+                622,
+                281,
+                635,
+                296
+              ],
+              "depth_quantiles_raw": {
+                "p25": 6.766148090362549,
+                "p50": 6.806220531463623
+              },
+              "transparent_surface_uncertain": false,
+              "in_path": false,
+              "trajectory_basis": "image_corridor_proxy",
+              "class_priority": "high",
+              "hazard_score": 20.30012372136116,
+              "message": "Autobús a la derecha."
+            }
+          ]
+        }
+      ],
+      "mean_total_ms": 96.20940000362073,
+      "processing_fps_reciprocal": 10.39399476519307,
+      "peak_gpu_allocated_bytes": 407798784,
+      "peak_gpu_reserved_bytes": 442499072
+    }
+  },
+  "parallel_enabled_in_production": false
+}

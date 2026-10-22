@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="3" failures="0" skipped="0" tests="3" time="7.478" timestamp="2026-09-22T07:48:26.861621-05:00" hostname="Magic-"><testcase classname="" name="01_app_magicvision_final.app_flutter_magicvision.backend.test_api" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\Escritorio\Tesis\01_app_magicvision_final\app_flutter_magicvision\backend\test_api.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\magic\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+01_app_magicvision_final\app_flutter_magicvision\backend\test_api.py:10: in &lt;module&gt;
+    from api import MAX_REQUEST_BYTES, create_app
+01_app_magicvision_final\app_flutter_magicvision\backend\lambda\api.py:16: in &lt;module&gt;
+    from mangum import Mangum
+E   ModuleNotFoundError: No module named 'mangum'</error></testcase><testcase classname="" name="01_app_magicvision_final.app_flutter_magicvision.backend.test_async_api" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\Escritorio\Tesis\01_app_magicvision_final\app_flutter_magicvision\backend\test_async_api.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\magic\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+01_app_magicvision_final\app_flutter_magicvision\backend\test_async_api.py:11: in &lt;module&gt;
+    from api import create_app
+01_app_magicvision_final\app_flutter_magicvision\backend\lambda\api.py:16: in &lt;module&gt;
+    from mangum import Mangum
+E   ModuleNotFoundError: No module named 'mangum'</error></testcase><testcase classname="" name="01_app_magicvision_final.app_flutter_magicvision.backend.test_improvement" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\Escritorio\Tesis\01_app_magicvision_final\app_flutter_magicvision\backend\test_improvement.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\magic\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+01_app_magicvision_final\app_flutter_magicvision\backend\test_improvement.py:7: in &lt;module&gt;
+    from api import create_app
+01_app_magicvision_final\app_flutter_magicvision\backend\lambda\api.py:16: in &lt;module&gt;
+    from mangum import Mangum
+E   ModuleNotFoundError: No module named 'mangum'</error></testcase></testsuite></testsuites>

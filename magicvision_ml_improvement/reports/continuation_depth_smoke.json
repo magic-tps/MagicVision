@@ -1,0 +1,18 @@
+{
+  "executed_at": "2026-09-23T04:18:30.658060+00:00",
+  "torch": "2.11.0+cu128",
+  "ultralytics": "8.4.159",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 2070 with Max-Q Design",
+  "model_sha256": "c0ff310571f0f159436e95a2a4fa3f8c40e1fbf36fac66a211347bd189990165",
+  "frame_id": "legacy_coco_filtered_000000000139",
+  "shape": [
+    426,
+    640
+  ],
+  "finite_positive_fraction": 1.0,
+  "depth_ms": 11534.368199994788,
+  "training_performed": false,
+  "calibrated": false,
+  "scope": "One real dataset frame; cold inference, not metric accuracy or throughput"
+}

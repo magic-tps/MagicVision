@@ -1,0 +1,37 @@
+{
+  "source_url": "https://zenodo.org/records/6382090",
+  "license": "CC-BY-4.0",
+  "source_class_mapping": {
+    "step": 12,
+    "stair": 5,
+    "ramp": 11,
+    "grab_bar": 21
+  },
+  "images": 824,
+  "unique_image_sha256": 824,
+  "images_per_class": {
+    "handrail": 400,
+    "stairs": 408,
+    "curb_step": 500,
+    "ramp": 129
+  },
+  "boxes_per_class": {
+    "handrail": 633,
+    "stairs": 492,
+    "curb_step": 738,
+    "ramp": 143
+  },
+  "selected": 824,
+  "requested_image_quotas": {
+    "ramp": 150,
+    "curb_step": 500,
+    "handrail": 400
+  },
+  "source_positive_images": 3367,
+  "errors": [],
+  "coverage_complete": false,
+  "approved_images": 0,
+  "source_split": "default_unsplit_preserved_as_metadata",
+  "download_method": "verified_HTTP_ranges_local_ZIP_header_uncompressed_size_CRC32",
+  "scope": "only visible surfaces; not a complete 25-class campus annotation; no training performed"
+}

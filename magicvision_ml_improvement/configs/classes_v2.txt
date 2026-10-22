@@ -1,0 +1,11 @@
+person
+car
+motorcycle
+bus
+bicycle
+stairs
+pothole
+pole
+traffic_sign
+obstacle
+trash_bin

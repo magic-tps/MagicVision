@@ -1,0 +1,52 @@
+{
+  "legacy_records": 5104,
+  "new_records": 4311,
+  "new_unique_sha256": 4308,
+  "new_exact_overlap_legacy": 0,
+  "new_unique_sha256_excluding_legacy": 4308,
+  "images_per_class_excluding_exact_legacy_duplicates": {
+    "person": 1727,
+    "car": 251,
+    "bicycle": 56,
+    "trash_bin": 1018,
+    "bus": 13,
+    "motorcycle": 18,
+    "stairs": 1236,
+    "traffic_sign": 2
+  },
+  "source_counts": {
+    "openimages": 1611,
+    "openimages_train": 2200,
+    "openimages_negative_candidates": 500
+  },
+  "annotation_boxes_imported": {
+    "person": 4442,
+    "car": 582,
+    "bicycle": 99,
+    "trash_bin": 1799,
+    "bus": 16,
+    "motorcycle": 22,
+    "stairs": 1513,
+    "traffic_sign": 11
+  },
+  "annotation_boxes_legacy": {
+    "person": 10777,
+    "traffic_sign": 1322,
+    "car": 2892,
+    "bicycle": 379,
+    "obstacle": 512,
+    "bus": 378,
+    "motorcycle": 543,
+    "pole": 60,
+    "pothole": 3608,
+    "stairs": 38
+  },
+  "candidate_negatives_unique": 500,
+  "verified_negatives": 0,
+  "approved_new": 0,
+  "legacy_cross_split_clusters": 124,
+  "quality_errors": 0,
+  "conflicting_exact_duplicates": 0,
+  "duplicate_or_session_clusters": 200,
+  "note": "Acquired candidates, not a released training dataset. pHash/sessions may reveal additional near-duplicates. Class counts overlap."
+}

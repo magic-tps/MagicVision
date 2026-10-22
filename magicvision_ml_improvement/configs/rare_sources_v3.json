@@ -1,0 +1,45 @@
+{
+  "created": "2026-09-20",
+  "rdd2022": {
+    "catalog": "https://figshare.com/articles/dataset/RDD2022_-_The_multi-national_Road_Damage_Dataset_released_through_CRDDC_2022/21431547",
+    "publisher_code": "https://github.com/sekilab/RoadDamageDetector",
+    "license_metadata": "https://api.figshare.com/v2/articles/21431547",
+    "license": "CC-BY-4.0",
+    "doi": "10.6084/m9.figshare.21431547.v1",
+    "mapping": {"D40": "pothole"},
+    "excluded": ["D00 longitudinal crack", "D10 transverse crack", "D20 alligator crack", "unannotated test images"],
+    "countries": ["India", "Japan", "United_States"],
+    "grouping": "Original train remains train; conservative groups of 100 consecutive filename IDs within country. Actual drive sessions not known; duplicate hashes and perceptual hashes still required against all original splits.",
+    "annotation_scope": "Only potholes are mapped. All eleven MagicVision classes require completeness review before training.",
+    "domain_gap": "Vehicle-mounted road photographs are supplementary. They do not validate pedestrian campus potholes or stairs."
+  },
+  "hotosm_poles": {
+    "catalog": "https://huggingface.co/datasets/hotosm/streetlevel-poles",
+    "revision": "0352f0b2b067439ca3467994cb9938a42310a09e",
+    "license": "CC-BY-SA-4.0",
+    "author": "HOT-OSM / UC Berkeley; attribution of individual positive photos is incomplete in source metadata",
+    "mapping": {"0 pole": "pole"},
+    "excluded": ["1 tower", "images with no pole annotations", "precise coordinates in the derived manifest"],
+    "mapping_condition": "Candidate utility pole boxes only. Review the visible vertical shaft and annotation convention before release. Do not equate a transmission tower or a whole light fixture with pole; correct boxes including attachments inconsistent with the target convention.",
+    "preserve_source_splits": true,
+    "provenance_condition": "The dataset card declares CC-BY-SA-4.0 for the release including embedded image parquet; positive photos mainly have only filename prefixes. Preserve card and source collection, and review source attribution/share-alike compatibility before approving release.",
+    "annotation_scope": "Source pole boxes are partial relative to eleven MagicVision classes. Empty source annotations are not verified MagicVision negatives."
+  },
+  "smartbin_legacy": {
+    "catalog": "https://huggingface.co/datasets/arudaev/smart-bin-detect",
+    "revision": "a3ff0d70b097d5bd4d8de3d850498d30b911d009",
+    "license": "MIT for legacy subset; other subsets have separate licenses",
+    "mapping": {"0 bin": "10 trash_bin"},
+    "excluded": ["derived crops", "machine form-factor proposals", "Open Images copy", "negative subset"],
+    "grouping": "Preserve capture_cluster and original train/val. Reject cross-holdout groups before release.",
+    "annotation_scope": "Public bin boxes need eleven-class completeness review; original annotator is preserved where known.",
+    "domain_gap": "One city in Germany during one week; not a campus or geographical holdout."
+  },
+  "release_policy": {
+    "review_status": "needs_review",
+    "coverage_complete": false,
+    "provenance_reviewed": false,
+    "training_approved": false,
+    "weights_changed": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "records": 19444,
+  "review_sample": 275,
+  "sample_per_class": {
+    "person": 133,
+    "motorcycle": 138,
+    "bicycle": 63,
+    "obstacle": 30,
+    "car": 98,
+    "bus": 44,
+    "pole": 54,
+    "traffic_sign": 40,
+    "pothole": 25,
+    "stairs": 25,
+    "trash_bin": 26
+  },
+  "sample_sources": {
+    "legacy": 200,
+    "openimages": 50,
+    "hotosm_poles": 25
+  },
+  "packaged_labels_unchanged": true,
+  "decisions": 0
+}

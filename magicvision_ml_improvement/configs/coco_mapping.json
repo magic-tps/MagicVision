@@ -1,0 +1,9 @@
+{
+  "person": "person",
+  "car": "car",
+  "motorcycle": "motorcycle",
+  "bus": "bus",
+  "bicycle": "bicycle",
+  "fire hydrant": "obstacle",
+  "bench": "obstacle"
+}

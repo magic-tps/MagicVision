@@ -1,0 +1,23 @@
+{
+  "torch": "2.11.0+cu128",
+  "ultralytics": "8.4.56",
+  "cuda_runtime": "12.8",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 2070 with Max-Q Design",
+  "vram_bytes": 8589606912,
+  "ram_available_bytes": 9920176128,
+  "disk_free_bytes": 347679318016,
+  "checkpoint_architecture": "yolo26m.yaml",
+  "checkpoint_classes": {
+    "0": "person",
+    "1": "car",
+    "2": "motorcycle",
+    "3": "bus",
+    "4": "bicycle",
+    "5": "stairs",
+    "6": "pothole",
+    "7": "pole",
+    "8": "traffic_sign",
+    "9": "obstacle"
+  }
+}

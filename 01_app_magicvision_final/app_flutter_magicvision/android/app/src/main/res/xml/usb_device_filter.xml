@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Video interfaces and composite UVC/UAC devices. Exact VID/PID is not
+         assumed from the sensor name; the bridge checks the video interface. -->
+    <usb-device class="14" />
+    <usb-device class="239" subclass="2" protocol="1" />
+</resources>

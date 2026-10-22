@@ -1,0 +1,1516 @@
+{
+  "generated_at": "2026-09-23T05:27:18.646909+00:00",
+  "unit": "unique image hashes except box totals",
+  "total_door_images": 511,
+  "total_door_boxes": 715,
+  "total_glass_door_images": 500,
+  "total_glass_door_boxes": 2060,
+  "approved": 0,
+  "corrected": 0,
+  "rejected": 0,
+  "needs_review": 1011,
+  "geometric_flag_counts": {
+    "more_than_four_door_components": 131,
+    "very_small_box": 66,
+    "box_over_80_percent_image": 11
+  },
+  "flagged_records": [
+    {
+      "id": "openimages_campus_v4_285c33df583022d1",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\285c33df583022d1.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_396fca7def3db14c",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\396fca7def3db14c.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_3ff3af7e69742066",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\3ff3af7e69742066.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_4d52b0cf40b8f1de",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\4d52b0cf40b8f1de.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_64e92764acdc519c",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\64e92764acdc519c.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_66db7e2ddb478bf8",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\66db7e2ddb478bf8.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_bf87b83607a69736",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\bf87b83607a69736.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_cd1c44747f5249eb",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\cd1c44747f5249eb.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_d4fc753afd5af036",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\d4fc753afd5af036.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_d6c201e6935be86c",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\d6c201e6935be86c.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_e8a0cb20ab861363",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\e8a0cb20ab861363.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "openimages_campus_v4_fd61973b5f2f5881",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\images\\fd61973b5f2f5881.jpg",
+      "source": "openimages_campus_v4",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00291",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00291.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00308",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00308.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00386",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00386.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00407",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00407.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00475",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00475.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00479",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00479.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00538",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00538.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00602",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00602.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00641",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00641.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00662",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00662.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00715",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00715.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00762",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00762.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00771",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00771.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00827",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00827.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00909",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00909.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_00989",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_00989.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01031",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01031.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01037",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01037.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01089",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01089.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01207",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01207.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01269",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01269.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01289",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01289.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01355",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01355.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01363",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01363.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01427",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01427.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01487",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01487.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01618",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01618.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01628",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01628.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01636",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01636.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01666",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01666.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01676",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01676.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_01722",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_01722.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_test-00000-of-00001_02041",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\test\\test-00000-of-00001_02041.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00278",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00278.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00310",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00310.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00380",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00380.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00386",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00386.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00559",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00559.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00580",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00580.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00584",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00584.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00607",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00607.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00617",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00617.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00646",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00646.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00647",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00647.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00683",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00683.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00700",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00700.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00703",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00703.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00762",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00762.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00769",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00769.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00842",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00842.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_00909",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_00909.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01092",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01092.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01182",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01182.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01222",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01222.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01303",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01303.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01313",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01313.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01321",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01321.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01330",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01330.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01363",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01363.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01382",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01382.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01400",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01400.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01415",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01415.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01494",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01494.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01557",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01557.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01582",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01582.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01738",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01738.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01832",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01832.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01847",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01847.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_01982",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_01982.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_02004",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_02004.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_02099",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_02099.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_02108",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_02108.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_02125",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_02125.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_02224",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_02224.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_02327",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_02327.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_02331",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_02331.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_02352",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_02352.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00000-of-00002_02368",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00000-of-00002_02368.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00047",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00047.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00072",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00072.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00121",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00121.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00145",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00145.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00164",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00164.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00463",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00463.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00518",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00518.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00523",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00523.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00525",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00525.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00528",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00528.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00533",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00533.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00545",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00545.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00558",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00558.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00580",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00580.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00603",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00603.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00606",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00606.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00616",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00616.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00618",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00618.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00650",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00650.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00653",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00653.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00656",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00656.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00657",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00657.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00658",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00658.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00660",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00660.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00662",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00662.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00691",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00691.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00695",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00695.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00699",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00699.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00704",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00704.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00714",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00714.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00722",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00722.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00726",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00726.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00744",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00744.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00761",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00761.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00768",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00768.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00780",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00780.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00793",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00793.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00796",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00796.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00810",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00810.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_train-00001-of-00002_00818",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\train\\train-00001-of-00002_00818.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00091",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00091.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00093",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00093.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00164",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00164.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00179",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00179.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "box_over_80_percent_image"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00190",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00190.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00206",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00206.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00228",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00228.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00243",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00243.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00394",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00394.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00398",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00398.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00467",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00467.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00475",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00475.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00478",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00478.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00584",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00584.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00586",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00586.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00589",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00589.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00591",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00591.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00598",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00598.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00604",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00604.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00612",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00612.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00619",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00619.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00634",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00634.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00635",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00635.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00642",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00642.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00667",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00667.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00672",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00672.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00680",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00680.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00686",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00686.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components",
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00696",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00696.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00700",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00700.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "more_than_four_door_components"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "id": "trans10k_glass_validation-00000-of-00001_00701",
+      "image": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\images\\val\\validation-00000-of-00001_00701.jpg",
+      "source": "trans10k_glass",
+      "flags": [
+        "very_small_box"
+      ],
+      "status": "NEEDS_HUMAN_REVIEW"
+    }
+  ],
+  "semantic_limit": "Geometry cannot establish transparency, reflections, door state, or distinguish a glass door from a window. These cases remain human decisions."
+}

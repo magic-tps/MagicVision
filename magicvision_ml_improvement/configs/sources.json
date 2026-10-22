@@ -1,0 +1,26 @@
+{
+  "openimages": {
+    "catalog": "https://storage.googleapis.com/openimages/web/download_v7.html",
+    "license_reference": "https://storage.googleapis.com/openimages/web/factsfigures_v7.html",
+    "annotations_license": "CC-BY-4.0",
+    "images": "CC-BY-2.0 according to per-image metadata; preserve attribution and review source disclaimer",
+    "verified_categories": {"/m/01g317":"Person","/m/01lynh":"Stairs","/m/0bjyj5":"Waste container"},
+    "status": "implemented downloader; quarantined imports until completeness review"
+  },
+  "coco": {
+    "source": "https://cocodataset.org/#termsofuse",
+    "status": "existing download_coco.py retained; explicit converter available; individual image rights require review",
+    "classes": ["person","car","motorcycle","bus","bicycle"],
+    "trash_bin": false
+  },
+  "roboflow_stairs": {
+    "source": "https://universe.roboflow.com/stairsescalators/stair_escalator",
+    "listed_license": "CC-BY-4.0",
+    "status": "not downloaded; authenticated export or manual download pending; inspect exact labels and duplicate augmentations before mapping",
+    "do_not_map": "escalator to stairs without explicit scope decision"
+  },
+  "campus": {
+    "status": "no connected phone or images supplied; opt-in paired capture archive and importer implemented",
+    "rights": "document consent, controlled access and retention; no precise location stored"
+  }
+}

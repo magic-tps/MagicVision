@@ -1,0 +1,88 @@
+{
+  "scope": "Local real model and production API/Dart; simulated S3/SageMaker transport and camera; no audible TTS test",
+  "response": {
+    "request_id": "55e3d6ae-d20b-4581-bcc6-c17515ed31ac",
+    "processing_time_ms": 136.6,
+    "image_width": 640,
+    "image_height": 315,
+    "detections": [
+      {
+        "class_id": 0,
+        "label": "person",
+        "confidence": 0.9225113391876221,
+        "bbox": {
+          "left": 0.6985149383544922,
+          "top": 0.38061195611953735,
+          "right": 0.7815976738929749,
+          "bottom": 0.7651214003562927
+        }
+      }
+    ],
+    "model_version": "704361e5746e23160b95976d342484d250a7931fabbbe798dd1d4e48d269367f"
+  },
+  "assessment": {
+    "type": "environment",
+    "description": "Se detecta una persona cerca. Objetos detectados: persona a la derecha.",
+    "riskLevel": "medio",
+    "detectedObjects": [
+      "person"
+    ],
+    "recommendation": "Avanza lentamente y manten distancia.",
+    "suggestedAction": "Avanza con precaucion",
+    "confidence": 0.9225113391876221,
+    "timestamp": "2026-09-20T21:23:55.704896",
+    "source": "aws_sagemaker"
+  },
+  "speech_text": "Se detecta una persona cerca. Objetos detectados: persona a la derecha. Avanza lentamente y manten distancia. Accion sugerida: Avanza con precaucion.",
+  "states": [
+    "preparing",
+    "capturing",
+    "uploading",
+    "processing",
+    "processing",
+    "processing",
+    "resultReady"
+  ],
+  "metrics": [
+    {
+      "request_id": "55e3d6ae-d20b-4581-bcc6-c17515ed31ac",
+      "timestamp": "2026-09-21T02:23:53.180571Z",
+      "camera_source": "test_uvc",
+      "original_resolution": {
+        "width": 640,
+        "height": 315
+      },
+      "inference_resolution": {
+        "width": 640,
+        "height": 315
+      },
+      "jpeg_size_bytes": 51870,
+      "network_latency_ms": 1049,
+      "cloud_inference_ms": 136.6,
+      "total_processing_ms": 2529,
+      "detections_count": 1,
+      "risk_level": "medio",
+      "recommendation": "Avanza lentamente y manten distancia.",
+      "service_preparation_ms": 1157,
+      "status": "success",
+      "model_version": "704361e5746e23160b95976d342484d250a7931fabbbe798dd1d4e48d269367f",
+      "captured_at": "2026-09-21T02:23:54.341694Z",
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "person",
+          "confidence": 0.9225113391876221,
+          "bbox": {
+            "left": 0.6985149383544922,
+            "top": 0.38061195611953735,
+            "right": 0.7815976738929749,
+            "bottom": 0.7651214003562927
+          }
+        }
+      ],
+      "cerm_description": "Se detecta una persona cerca. Objetos detectados: persona a la derecha.",
+      "cerm_speech_text": "Se detecta una persona cerca. Objetos detectados: persona a la derecha. Avanza lentamente y manten distancia. Accion sugerida: Avanza con precaucion.",
+      "capture_age_ms": 1368
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+datasets/
+models/
+original_sources/
+**/__pycache__/
+.pytest_cache/
+test_deps/
+reports/**/*.jpg
+reports/**/*.png
+reports/**/*.cache
+reports/**/predictions.jsonl
+reports/**/model/
+reports/**/*.key
+training/runs/

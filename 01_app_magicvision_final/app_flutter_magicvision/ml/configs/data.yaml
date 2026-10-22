@@ -1,0 +1,16 @@
+path: ../datasets/dataset_final_magicvision
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: person
+  1: car
+  2: motorcycle
+  3: bus
+  4: bicycle
+  5: stairs
+  6: pothole
+  7: pole
+  8: traffic_sign
+  9: obstacle

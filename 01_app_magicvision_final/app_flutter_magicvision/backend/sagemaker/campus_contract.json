@@ -1,0 +1,27 @@
+{
+  "taxonomy": "magicvision-campus22-v1",
+  "names": [
+    "person",
+    "car",
+    "motorcycle",
+    "bus",
+    "bicycle",
+    "stairs",
+    "pothole",
+    "pole",
+    "traffic_sign",
+    "obstacle",
+    "trash_can",
+    "ramp",
+    "curb_step",
+    "door",
+    "glass_door",
+    "chair",
+    "table_desk",
+    "backpack",
+    "construction_barrier",
+    "handrail",
+    "cone",
+    "fire_extinguisher"
+  ]
+}

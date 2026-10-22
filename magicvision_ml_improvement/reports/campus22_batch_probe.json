@@ -1,0 +1,12 @@
+{
+  "performed": true,
+  "suggested_batch": 2,
+  "memory_fraction": 0.6,
+  "imgsz": 640,
+  "gpu": "NVIDIA GeForce RTX 2070 with Max-Q Design",
+  "vram_bytes": 8589606912,
+  "torch": "2.11.0+cu128",
+  "manifest_sha256": "de789936ce3c20f40adda9d7e30a443c4192d78fd10bb7a6f508b460940aed9e",
+  "weights_sha256": "401cea9ab23ad19246ff7744859816bc599f350e93c9dd30367b6f0a0745d0b7",
+  "note": "Profiler estimate, not a guaranteed maximum. Confirm during initial training; restart with smaller batch after OOM."
+}

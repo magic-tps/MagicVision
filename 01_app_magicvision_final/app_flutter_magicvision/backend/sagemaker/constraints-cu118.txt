@@ -1,0 +1,3 @@
+# Preserve the CUDA build while resolving Ultralytics dependencies.
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118

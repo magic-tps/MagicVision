@@ -1,0 +1,49 @@
+{
+  "taxonomy": "magicvision-campus22-v1",
+  "manifest": "magicvision_ml_improvement/datasets/campus22_v1/manifest.jsonl",
+  "classes": "magicvision_ml_improvement/datasets/campus22_v1/classes.txt",
+  "class_mapping": "magicvision_ml_improvement/datasets/campus22_v1/class_mapping.json",
+  "excluded_classes": [
+    "cable",
+    "wet_floor",
+    "elevator"
+  ],
+  "training_config": "magicvision_ml_improvement/training/campus22_yolo26.yaml",
+  "training_ready": false,
+  "work_dataset_candidate": "magicvision_ml_improvement/datasets/campus22_work_v2/manifest.jsonl",
+  "release_candidate_review": "magicvision_ml_improvement/datasets/review_campus22_remaining/release_candidates",
+  "latest_preflight": "magicvision_ml_improvement/reports/campus22_preflight_v2.json",
+  "note": "User-selected target contract. Does not change the deployed checkpoint or approve annotations.",
+  "names": [
+    "person",
+    "car",
+    "motorcycle",
+    "bus",
+    "bicycle",
+    "stairs",
+    "pothole",
+    "pole",
+    "traffic_sign",
+    "obstacle",
+    "trash_can",
+    "ramp",
+    "curb_step",
+    "door",
+    "glass_door",
+    "chair",
+    "table_desk",
+    "backpack",
+    "construction_barrier",
+    "handrail",
+    "cone",
+    "fire_extinguisher"
+  ],
+  "name_aliases": {
+    "trash_bin": "trash_can"
+  },
+  "experimental_training_data": "magicvision_ml_improvement/datasets/campus22_full_existing_v1/data.yaml",
+  "experimental_training_manifest": "magicvision_ml_improvement/datasets/campus22_full_existing_v1/manifest.jsonl",
+  "experimental_training_mode": "existing-labels",
+  "experimental_training_ready": true,
+  "latest_experimental_preflight": "magicvision_ml_improvement/reports/campus22_full_existing_preflight.json"
+}

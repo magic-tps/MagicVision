@@ -1,0 +1,9 @@
+{
+  "dataset": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus22_release_v2\\data.yaml",
+  "ready": false,
+  "errors": [
+    "Missing data.yaml"
+  ],
+  "minimum_priority_images": 50,
+  "note": "Readiness verifies review evidence and split integrity, not detection accuracy."
+}

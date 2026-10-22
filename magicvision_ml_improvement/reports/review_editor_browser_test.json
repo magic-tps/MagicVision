@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "exported_images": 275,
+  "draw_box": true,
+  "delete_box": true,
+  "valid_yolo_save": true,
+  "download_fallback": true,
+  "mobile_no_horizontal_overflow": true,
+  "page_errors": [],
+  "actual_dataset_labels_modified": false
+}

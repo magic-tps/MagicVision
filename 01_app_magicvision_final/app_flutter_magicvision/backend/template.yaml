@@ -1,0 +1,118 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: MagicVision - JPEG API and full YOLO26m inference. No training resources.
+Parameters:
+  ModelDataUrl:
+    Type: String
+    AllowedPattern: 's3://.*/.*\.tar\.gz'
+    Description: Existing private S3 object produced by package_model.py
+  ModelObjectArn:
+    Type: String
+    AllowedPattern: 'arn:aws:s3:::.*'
+    Description: ARN of that exact S3 object (least privilege)
+  InferenceImageUri:
+    Type: String
+    Description: ECR URI of backend/sagemaker Docker image (CPU)
+  AllowedClientCidr:
+    Type: String
+    AllowedPattern: '(\d{1,3}\.){3}\d{1,3}/(3[0-2]|[12][0-9]|[1-9])'
+    Description: Authorized laboratory public egress IP/CIDR. No public /0 access.
+  InstanceType:
+    Type: String
+    Default: ml.m5.xlarge
+Resources:
+  ModelRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: {Service: sagemaker.amazonaws.com}
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: ReadModelAndContainer
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: s3:GetObject
+                Resource: !Ref ModelObjectArn
+              - Effect: Allow
+                Action: ecr:GetAuthorizationToken
+                Resource: '*'
+              - Effect: Allow
+                Action: [ecr:BatchCheckLayerAvailability, ecr:GetDownloadUrlForLayer, ecr:BatchGetImage]
+                Resource: !Sub 'arn:aws:ecr:${AWS::Region}:${AWS::AccountId}:repository/*'
+              - Effect: Allow
+                Action: [logs:CreateLogGroup, logs:CreateLogStream, logs:PutLogEvents, logs:DescribeLogStreams]
+                Resource: !Sub 'arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/sagemaker/*'
+              - Effect: Allow
+                Action: cloudwatch:PutMetricData
+                Resource: '*'
+  Model:
+    Type: AWS::SageMaker::Model
+    Properties:
+      ExecutionRoleArn: !GetAtt ModelRole.Arn
+      EnableNetworkIsolation: true
+      PrimaryContainer:
+        Image: !Ref InferenceImageUri
+        ModelDataUrl: !Ref ModelDataUrl
+        Environment: {MODEL_DEVICE: cpu}
+  EndpointConfig:
+    Type: AWS::SageMaker::EndpointConfig
+    Properties:
+      ProductionVariants:
+        - InitialInstanceCount: 1
+          InitialVariantWeight: 1
+          InstanceType: !Ref InstanceType
+          ModelName: !GetAtt Model.ModelName
+          VariantName: AllTraffic
+  Endpoint:
+    Type: AWS::SageMaker::Endpoint
+    Properties:
+      EndpointConfigName: !GetAtt EndpointConfig.EndpointConfigName
+  Api:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      EndpointConfiguration:
+        Type: REGIONAL
+      BinaryMediaTypes: ['multipart/form-data']
+      Auth:
+        ResourcePolicy:
+          IpRangeWhitelist: [!Ref AllowedClientCidr]
+      MethodSettings:
+        - ResourcePath: '/*'
+          HttpMethod: '*'
+          ThrottlingRateLimit: 1
+          ThrottlingBurstLimit: 2
+  InferenceFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: lambda/
+      Handler: api.handler
+      Runtime: python3.11
+      Timeout: 12
+      MemorySize: 512
+      ReservedConcurrentExecutions: 2
+      Environment:
+        Variables:
+          SAGEMAKER_ENDPOINT_NAME: !GetAtt Endpoint.EndpointName
+      Policies:
+        - Statement:
+            - Effect: Allow
+              Action: sagemaker:InvokeEndpoint
+              Resource: !Sub 'arn:aws:sagemaker:${AWS::Region}:${AWS::AccountId}:endpoint/${Endpoint.EndpointName}'
+      Events:
+        Inference:
+          Type: Api
+          Properties:
+            RestApiId: !Ref Api
+            Path: /v1/inference
+            Method: post
+Outputs:
+  ApiBaseUrl:
+    Value: !Sub 'https://${Api}.execute-api.${AWS::Region}.amazonaws.com/prod'
+  EndpointName:
+    Value: !GetAtt Endpoint.EndpointName

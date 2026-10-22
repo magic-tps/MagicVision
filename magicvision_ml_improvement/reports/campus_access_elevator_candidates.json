@@ -1,0 +1,151 @@
+{
+  "images": 84,
+  "unique_image_sha256": 84,
+  "candidate_images_per_class": {
+    "elevator": 84
+  },
+  "boxes_per_class": {
+    "elevator": 0
+  },
+  "annotated_images": 0,
+  "annotation_status": "unannotated",
+  "approved_images": 0,
+  "verified_negative_images": 0,
+  "coverage_complete": false,
+  "requested": 100,
+  "catalog_pages": 208,
+  "source_categories": [
+    "Category:Elevator doors",
+    "Category:Closed elevator doors",
+    "Category:Open elevator doors"
+  ],
+  "licenses": {
+    "CC BY-SA 4.0": 43,
+    "CC BY 3.0": 3,
+    "Public domain": 4,
+    "CC BY 2.0": 6,
+    "CC BY-SA 3.0": 15,
+    "CC BY-SA 2.0": 3,
+    "CC0": 5,
+    "CC BY 4.0": 5
+  },
+  "excluded": [
+    {
+      "page_id": 133743761,
+      "reason": "No accepted explicit individual image license"
+    },
+    {
+      "page_id": 96682497,
+      "reason": "Not a supported bounded photograph"
+    },
+    {
+      "page_id": 138533775,
+      "reason": "No accepted explicit individual image license"
+    },
+    {
+      "page_id": 2799781,
+      "reason": "Not a supported bounded photograph"
+    },
+    {
+      "page_id": 33930691,
+      "reason": "Not a supported bounded photograph"
+    },
+    {
+      "page_id": 34069801,
+      "reason": "Not a supported bounded photograph"
+    },
+    {
+      "page_id": 91983671,
+      "reason": "No accepted explicit individual image license"
+    },
+    {
+      "page_id": 33911682,
+      "reason": "Not a supported bounded photograph"
+    },
+    {
+      "page_id": 118070381,
+      "reason": "No accepted explicit individual image license"
+    },
+    {
+      "page_id": 2319671,
+      "reason": "Commons license name/URL disagree"
+    },
+    {
+      "page_id": 97453188,
+      "reason": "No accepted explicit individual image license"
+    },
+    {
+      "page_id": 95588495,
+      "reason": "No accepted explicit individual image license"
+    },
+    {
+      "page_id": 176912257,
+      "reason": "Not a supported bounded photograph"
+    }
+  ],
+  "errors": [
+    {
+      "page_id": 12520891,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 12520948,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 16944811,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 27914737,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 12520972,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 12520909,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 78370,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 12520992,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 16510065,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 8989926,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 12520917,
+      "reason": "Commons image dimensions mismatch"
+    },
+    {
+      "page_id": 8989925,
+      "reason": "429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/5/53/Aufzugst%C3%BCr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "page_id": 27914734,
+      "reason": "429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/e/e3/Meier_and_Frank_Building%2C_Portland%2C_Oregon_-_elevator_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "page_id": 12520878,
+      "reason": "429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/2/28/Mutual_Building_Cape_Town_020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "source_api": "https://commons.wikimedia.org/w/api.php",
+  "verification": "Cached original SHA1 verified; standard thumbnails verified by decoded dimensions with local SHA256, not compared to original SHA1",
+  "download_variants": {
+    "original_sha1_verified": 5,
+    "standard_thumbnail": 79
+  },
+  "limitations": "Category membership may include details or irrelevant images. Human selection and complete boxes are required before training."
+}

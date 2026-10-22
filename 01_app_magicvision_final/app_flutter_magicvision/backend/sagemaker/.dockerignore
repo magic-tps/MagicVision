@@ -1,0 +1,10 @@
+*
+!Dockerfile
+!requirements.txt
+!serve.py
+!constraints-cu118.txt
+!verify_container.py
+!Dockerfile.depth
+!detection_depth.py
+!campus_contract.json
+!detection_depth_policy.json

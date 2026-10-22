@@ -1,0 +1,14 @@
+{
+  "validated_at": "2026-09-21T02:23:00.151458+00:00",
+  "model_health": {
+    "device": "cuda",
+    "status": "ok"
+  },
+  "model_image": "native-current-serve:704361e5746e23160b95976d342484d250a7931fabbbe798dd1d4e48d269367f",
+  "invocations": 2,
+  "temporary_images_remaining": 0,
+  "flutter_report": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\reports\\local_integration_final\\flutter-result.json",
+  "aws_tested": false,
+  "usb_tested": false,
+  "audible_tts_tested": false
+}

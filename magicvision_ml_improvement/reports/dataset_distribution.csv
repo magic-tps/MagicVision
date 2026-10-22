@@ -1,0 +1,12 @@
+﻿id,class,legacy_boxes,new_imported_boxes,new_unique_images_excluding_exact_legacy,approved_new_images
+0,person,10777,4442,1727,0
+1,car,2892,582,251,0
+2,motorcycle,543,22,18,0
+3,bus,378,16,13,0
+4,bicycle,379,99,56,0
+5,stairs,38,1513,1236,0
+6,pothole,3608,0,0,0
+7,pole,60,0,0,0
+8,traffic_sign,1322,11,2,0
+9,obstacle,512,0,0,0
+10,trash_bin,0,1799,1018,0

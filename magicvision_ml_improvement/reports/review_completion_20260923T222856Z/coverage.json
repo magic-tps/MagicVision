@@ -1,0 +1,95 @@
+{
+  "package_id": "71bf5079-02d9-46b6-831f-d8ea50a54e5c",
+  "images": 998,
+  "boxes": 5338,
+  "planned_images_by_split": {
+    "train": 701,
+    "val": 161,
+    "test": 136
+  },
+  "images_per_class_by_split": {
+    "train": {
+      "stairs": 147,
+      "person": 250,
+      "handrail": 57,
+      "door": 111,
+      "bicycle": 43,
+      "car": 158,
+      "chair": 74,
+      "table_desk": 40,
+      "pothole": 50,
+      "glass_door": 81,
+      "curb_step": 73,
+      "motorcycle": 34,
+      "trash_can": 70,
+      "ramp": 50,
+      "obstacle": 45,
+      "traffic_sign": 48,
+      "bus": 33,
+      "construction_barrier": 76,
+      "cone": 50,
+      "pole": 30,
+      "backpack": 30,
+      "fire_extinguisher": 30
+    },
+    "val": {
+      "stairs": 39,
+      "door": 27,
+      "person": 53,
+      "pothole": 12,
+      "car": 46,
+      "ramp": 12,
+      "curb_step": 18,
+      "handrail": 15,
+      "glass_door": 22,
+      "chair": 19,
+      "trash_can": 16,
+      "table_desk": 13,
+      "bicycle": 9,
+      "obstacle": 7,
+      "construction_barrier": 16,
+      "cone": 14,
+      "traffic_sign": 11,
+      "motorcycle": 9,
+      "bus": 8,
+      "pole": 8,
+      "backpack": 8
+    },
+    "test": {
+      "stairs": 38,
+      "handrail": 22,
+      "door": 24,
+      "trash_can": 20,
+      "glass_door": 25,
+      "curb_step": 19,
+      "person": 69,
+      "ramp": 12,
+      "pothole": 12,
+      "car": 40,
+      "bicycle": 14,
+      "chair": 15,
+      "table_desk": 11,
+      "obstacle": 14,
+      "traffic_sign": 8,
+      "motorcycle": 9,
+      "bus": 8,
+      "pole": 8,
+      "backpack": 8
+    }
+  },
+  "missing_classes_by_split": {
+    "train": [],
+    "val": [
+      "fire_extinguisher"
+    ],
+    "test": [
+      "construction_barrier",
+      "cone",
+      "fire_extinguisher"
+    ]
+  },
+  "groups_crossing_planned_splits": 0,
+  "training_ready": false,
+  "training_started": false,
+  "next_step": "Complete missing class coverage with independent reviewed groups, then materialize release and run training preflight."
+}

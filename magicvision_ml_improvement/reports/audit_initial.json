@@ -1,0 +1,15 @@
+{
+  "app": "01_app_magicvision_final\\app_flutter_magicvision",
+  "git_repository": false,
+  "camera_code": "UsbCameraSource",
+  "adb_devices": [],
+  "installed_apk_verified": false,
+  "cloud_endpoint_verified": false,
+  "model": "YOLO26m",
+  "ultralytics": "8.4.56",
+  "torch_local": "2.11.0+cu128",
+  "torch_container": "2.7.1+cu118",
+  "gpu": "RTX 2070 Max-Q 8 GiB",
+  "checkpoint_sha256": "704361e5746e23160b95976d342484d250a7931fabbbe798dd1d4e48d269367f",
+  "source_backups": 33
+}

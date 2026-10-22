@@ -1,0 +1,12 @@
+{
+  "taxonomy": "magicvision-campus-v4-25",
+  "status": "acquisition_candidates_not_approved_training_data",
+  "sources": [
+    {"source": "AutoExpert / PandaSet", "url": "https://huggingface.co/datasets/autoexpert-cvpr2026-workshop/dataset-public", "revision": "51f8e92ce458e12e43938d7e308d749c1900740a", "license": "CC-BY-NC-SA-4.0", "mapping": {"Temporary_Construction_Barriers": 20, "Cones": 23}, "limits": "Cones includes short guidance poles; review every mapped box. Small subset; street domain."},
+    {"source": "FireNet", "url": "https://rdr.ucl.ac.uk/articles/dataset/FireNet/9137798", "license": "CC-BY-NC-4.0", "mapping": {"Fire_Extinguisher": 24}, "limits": "Only exact VOC names; images with inconsistent annotation dimensions quarantined."},
+    {"source": "Malvido cables", "url": "https://doi.org/10.23729/93af7b3a-0f99-418b-9769-3ab8f345909a", "download_repository": "https://github.com/pablomalvido/cables_segmentation", "revision": "2f0d86585d7d2279f126c6da0b68d107a5073a91", "license": "CC-BY-4.0", "class_id": 18, "synthetic": true, "limits": "Masks converted to a single foreground extent per image; cable instances require review. No real campus cable images imported."},
+    {"source": "Junhan Traffic_Cone", "url": "https://huggingface.co/datasets/Junhan0518/Traffic_Cone", "revision": "a06fc558f85adb8d07b4c36d07660acf8ecfc9ee", "license": "Apache-2.0 declared by publisher", "mapping": {"trafficcone": 23}, "limits": "Individual original image provenance needs review; only paired VOC annotations imported."},
+    {"source": "Warehouse Safety Hazard", "url": "https://huggingface.co/datasets/Jsohal174/warehouse-safety-hazard-dataset", "revision": "b23808ec287ad4aa377f661f9cbda840e76865e1", "license": "CC-BY-4.0", "class_id": 19, "synthetic": true, "limits": "Image classification only. No detector boxes. Check wet liquid vs dry residue and annotate."},
+    {"source": "PIAP liquids", "url": "https://cloud.piap.pl/index.php/s/ApiXNzt4ZUUSRks", "status": "quarantined_not_in_consolidated_manifest", "limits": "Downloaded archive inspected; no explicit dataset license found in archive/COCO metadata. Do not infer data license from an article or repository license."}
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "taxonomy": "magicvision-campus-v4-25",
+  "sources": [
+    {
+      "name": "Image Dataset of Accessibility Barriers",
+      "source_url": "https://zenodo.org/records/6382090",
+      "catalog_api": "https://zenodo.org/api/records/6382090",
+      "doi": "10.5281/zenodo.6382090",
+      "license": "CC-BY-4.0",
+      "publisher": "Alexander von Humboldt Institute for Internet and Society",
+      "author": "Jakob Stolberg et al.",
+      "archive": "wm_barriers_data.zip",
+      "archive_size": 7972407510,
+      "archive_md5": "d96051ca1339d1c1afa9ac736eabd058",
+      "annotation_format": "CVAT image XML manual bounding boxes",
+      "source_box_mapping": {"ramp": 11, "step": 12, "grab_bar": 21, "stair": 5},
+      "selection_image_targets": {"ramp": 150, "curb_step": 500, "handrail": 400},
+      "selection_seed": 42,
+      "download": "Only selected ZIP members, using verified HTTP ranges and per-member size/CRC32",
+      "group_policy": "Retain CVAT annotation task as conservative group; this is not a verified capture session",
+      "original_split": "Source default subset has no train/validation/test split",
+      "caveats": [
+        "Steps include doorstep, curb and other vertical transitions; original type attribute is retained.",
+        "Handrails refer only to grab bars serving stairs or ramps, not fences or complete guardrails.",
+        "Only visible sloped or incremental surfaces are annotated.",
+        "Height and width attributes are subjective visual estimates, not metric ground truth.",
+        "No complete 25-class annotation or source-provenance approval is inferred."
+      ]
+    },
+    {
+      "name": "Wikimedia Commons elevator photograph candidates",
+      "source_url": "https://commons.wikimedia.org/wiki/Category:Elevator_doors",
+      "catalog_api": "https://commons.wikimedia.org/w/api.php",
+      "categories": ["Category:Elevator doors", "Category:Closed elevator doors", "Category:Open elevator doors"],
+      "candidate_class": "elevator",
+      "candidate_class_id": 22,
+      "annotation_format": "none; category retrieval is not a box annotation",
+      "image_target": 100,
+      "license_policy": "Explicit individual CC BY, CC BY-SA, CC0 or public-domain declaration with author and source URL",
+      "group_policy": "Author and capture day are conservative grouping hints, not verified sessions",
+      "integrity": "Original photo SHA1 matches Commons imageinfo; local SHA256 stored",
+      "verified_negative": false,
+      "coverage_complete": false,
+      "training_ready": false
+    }
+  ],
+  "review_status": "needs_review",
+  "coverage_complete": false,
+  "trained": false
+}

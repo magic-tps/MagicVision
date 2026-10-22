@@ -1,0 +1,27 @@
+{
+  "bos_token": {
+    "content": "<|startoftext|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "eos_token": {
+    "content": "<|im_end|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "image_end_token": "<|image_end|>",
+  "image_start_token": "<|image_start|>",
+  "image_thumbnail": "<|img_thumbnail|>",
+  "image_token": "<image>",
+  "pad_token": {
+    "content": "<|pad|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  }
+}

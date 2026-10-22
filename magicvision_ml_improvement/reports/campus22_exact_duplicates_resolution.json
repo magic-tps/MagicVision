@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-09-23T04:42:45.198540+00:00",
+  "groups": [
+    {
+      "sha256": "7f4ef19d35cd9885a2d3c384bbca4936b6c864dad26e91dfe8e57bacb392255e",
+      "record_ids": [
+        "firenet_0995",
+        "firenet_1225"
+      ],
+      "same_annotation": false,
+      "action": "NEEDS_HUMAN_RECONCILIATION",
+      "annotation_variants": [
+        [
+          "firenet_0995"
+        ],
+        [
+          "firenet_1225"
+        ]
+      ]
+    },
+    {
+      "sha256": "82af7b44439af2e1309448bc96231dca6b1527c2bcbbb10a74b6b0f67c6d7ee4",
+      "record_ids": [
+        "firenet_0158",
+        "firenet_1177"
+      ],
+      "same_annotation": false,
+      "action": "NEEDS_HUMAN_RECONCILIATION",
+      "annotation_variants": [
+        [
+          "firenet_0158"
+        ],
+        [
+          "firenet_1177"
+        ]
+      ]
+    },
+    {
+      "sha256": "8ec54507ec0c4a8b7221139af9cf75dd5bc7080c0b2abb1645a0f97caddc33f1",
+      "record_ids": [
+        "junhan_traffic_cone_12",
+        "junhan_traffic_cone_14"
+      ],
+      "same_annotation": false,
+      "action": "NEEDS_HUMAN_RECONCILIATION",
+      "annotation_variants": [
+        [
+          "junhan_traffic_cone_12"
+        ],
+        [
+          "junhan_traffic_cone_14"
+        ]
+      ]
+    }
+  ],
+  "same_annotation_groups": 0,
+  "conflicting_annotation_groups": 3
+}

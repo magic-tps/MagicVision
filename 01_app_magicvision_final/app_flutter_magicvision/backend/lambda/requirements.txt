@@ -1,0 +1,8 @@
+fastapi==0.135.1
+starlette==1.6.0
+uvicorn==0.41.0
+python-multipart==0.0.22
+boto3==1.42.70
+mangum==0.21.0
+pillow==12.1.1
+pydantic==2.12.5

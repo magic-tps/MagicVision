@@ -1,0 +1,104 @@
+{
+  "dataset": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus22_full_existing_v1\\data.yaml",
+  "ready": true,
+  "errors": [],
+  "evaluation_scope": "experimental_existing_annotations",
+  "fully_human_reviewed": false,
+  "records": 24226,
+  "images_by_split": {
+    "train": 16570,
+    "val": 5238,
+    "test": 2418
+  },
+  "legacy_images": 5104,
+  "added_images": 19122,
+  "human_reviewed_images": 998,
+  "inherited_annotation_images": 23228,
+  "missing_classes_by_split": {
+    "train": [],
+    "val": [
+      "fire_extinguisher"
+    ],
+    "test": [
+      "fire_extinguisher"
+    ]
+  },
+  "all_classes_evaluable": false,
+  "images_per_class_by_split": {
+    "train": {
+      "person": 5386,
+      "traffic_sign": 1308,
+      "car": 1850,
+      "bicycle": 799,
+      "obstacle": 757,
+      "bus": 774,
+      "motorcycle": 775,
+      "trash_can": 1000,
+      "chair": 476,
+      "pole": 155,
+      "table_desk": 522,
+      "pothole": 3607,
+      "stairs": 1736,
+      "handrail": 252,
+      "door": 401,
+      "glass_door": 331,
+      "backpack": 350,
+      "curb_step": 307,
+      "ramp": 82,
+      "cone": 368,
+      "construction_barrier": 320,
+      "fire_extinguisher": 223
+    },
+    "val": {
+      "pothole": 361,
+      "car": 538,
+      "person": 1706,
+      "bus": 221,
+      "obstacle": 213,
+      "motorcycle": 221,
+      "traffic_sign": 595,
+      "pole": 298,
+      "bicycle": 226,
+      "table_desk": 151,
+      "stairs": 497,
+      "trash_can": 283,
+      "door": 109,
+      "chair": 134,
+      "backpack": 100,
+      "glass_door": 110,
+      "curb_step": 90,
+      "handrail": 81,
+      "ramp": 26,
+      "construction_barrier": 687,
+      "cone": 843
+    },
+    "test": {
+      "pothole": 578,
+      "car": 276,
+      "person": 800,
+      "bus": 112,
+      "traffic_sign": 216,
+      "motorcycle": 110,
+      "bicycle": 116,
+      "chair": 69,
+      "pole": 163,
+      "obstacle": 105,
+      "trash_can": 144,
+      "stairs": 248,
+      "table_desk": 75,
+      "door": 61,
+      "backpack": 50,
+      "handrail": 70,
+      "glass_door": 113,
+      "curb_step": 104,
+      "ramp": 21,
+      "cone": 6,
+      "construction_barrier": 6
+    }
+  },
+  "limitations": [
+    "Unreviewed inherited annotations can omit other Campus22 objects; they are not promoted to human-approved.",
+    "FireNet unknown capture sessions remain one group; fire-extinguisher held-out performance cannot be certified.",
+    "Training and metrics are experimental with inherited annotations, not a fully reviewed benchmark."
+  ]
+}

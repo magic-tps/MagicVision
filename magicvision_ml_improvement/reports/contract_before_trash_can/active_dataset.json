@@ -1,0 +1,10 @@
+{
+  "taxonomy": "magicvision-campus22-v1",
+  "manifest": "magicvision_ml_improvement/datasets/campus22_v1/manifest.jsonl",
+  "classes": "magicvision_ml_improvement/datasets/campus22_v1/classes.txt",
+  "class_mapping": "magicvision_ml_improvement/datasets/campus22_v1/class_mapping.json",
+  "excluded_classes": ["cable", "wet_floor", "elevator"],
+  "training_config": "magicvision_ml_improvement/training/campus22_yolo26.yaml",
+  "training_ready": false,
+  "note": "User-selected target contract. Does not change the deployed checkpoint or approve annotations."
+}

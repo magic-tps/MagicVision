@@ -1,0 +1,17 @@
+{
+  "source": "Open Images V6 train boxes, served by the official V7 download page",
+  "verified_on": "2026-09-21",
+  "reference": "https://storage.googleapis.com/openimages/web/download_v7.html",
+  "metadata_cache": "datasets/openimages_train/metadata",
+  "metadata_redownload_required": false,
+  "target_taxonomy": "campus_v4_25_classes",
+  "new_exact_mapping": {"Door": "door", "Chair": "chair", "Table": "table_desk", "Desk": "table_desk", "Backpack": "backpack"},
+  "new_image_quotas": {"door": 500, "chair": 500, "table_desk": 500, "backpack": 500},
+  "image_license_from_metadata": "CC-BY-2.0",
+  "annotation_license": "CC-BY-4.0",
+  "attribution": "Author, Title, OriginalURL and OriginalLandingURL are retained in every record. Individual provenance review remains pending.",
+  "unresolved": ["Door material does not distinguish glass doors", "Backpack does not imply placement on the floor", "Source photographs are not guaranteed university scenes", "Annotations do not cover all 25 target classes"],
+  "excluded": ["Group-of boxes", "Depictions", "Existing source image IDs", "Exact image hashes already present"],
+  "unsupported_exact_categories": ["ramp", "curb_step", "glass_door", "cable", "wet_floor", "construction_barrier", "handrail", "elevator", "cone", "fire_extinguisher"],
+  "training_status": "needs_review"
+}

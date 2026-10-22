@@ -1,0 +1,12 @@
+﻿id,class,before_images,new_images,total_images,new_imported_boxes
+0,person,4420,2040,6460,8088
+1,car,1090,1404,2494,4024
+2,motorcycle,282,821,1103,1498
+3,bus,283,821,1104,1406
+4,bicycle,254,857,1111,1979
+5,stairs,1266,801,2067,953
+6,pothole,1510,3036,4546,5565
+7,pole,37,579,616,960
+8,traffic_sign,448,1006,1454,2212
+9,obstacle,317,806,1123,1561
+10,trash_bin,1018,384,1402,421

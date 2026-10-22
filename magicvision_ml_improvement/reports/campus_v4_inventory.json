@@ -1,0 +1,457 @@
+{
+  "records": 23545,
+  "unique_images": 23542,
+  "new_unique_images": 4098,
+  "synthetic_unique_images": 392,
+  "boxes_deduplicated_by_pixels_and_geometry": 72591,
+  "empty_label_records_not_necessarily_negatives": 769,
+  "decoded_and_sha_verified_new_records": 4101,
+  "unique_image_bytes": 7724208198,
+  "approved_complete_25_class_records": 0,
+  "sources": {
+    "legacy": {
+      "records": 5104,
+      "hashes": 5104,
+      "synthetic_hashes": 0,
+      "boxes": 20509,
+      "unannotated_records": 0
+    },
+    "openimages": {
+      "records": 10355,
+      "hashes": 10355,
+      "synthetic_hashes": 0,
+      "boxes": 30220,
+      "unannotated_records": 472
+    },
+    "hotosm_poles": {
+      "records": 579,
+      "hashes": 579,
+      "synthetic_hashes": 0,
+      "boxes": 960,
+      "unannotated_records": 0
+    },
+    "rdd2022": {
+      "records": 3036,
+      "hashes": 3036,
+      "synthetic_hashes": 0,
+      "boxes": 5565,
+      "unannotated_records": 0
+    },
+    "smartbin_legacy": {
+      "records": 370,
+      "hashes": 370,
+      "synthetic_hashes": 0,
+      "boxes": 403,
+      "unannotated_records": 0
+    },
+    "openimages_campus_v4": {
+      "records": 1999,
+      "hashes": 1999,
+      "synthetic_hashes": 0,
+      "boxes": 9915,
+      "unannotated_records": 0
+    },
+    "wheelmap_accessibility_barriers_zenodo6382090": {
+      "records": 824,
+      "hashes": 824,
+      "synthetic_hashes": 0,
+      "boxes": 2006,
+      "unannotated_records": 0
+    },
+    "trans10k_glass": {
+      "records": 500,
+      "hashes": 500,
+      "synthetic_hashes": 0,
+      "boxes": 2060,
+      "unannotated_records": 0
+    },
+    "autoexpert_pandaset": {
+      "records": 27,
+      "hashes": 27,
+      "synthetic_hashes": 0,
+      "boxes": 294,
+      "unannotated_records": 0
+    },
+    "malvido_synthetic_cables": {
+      "records": 179,
+      "hashes": 179,
+      "synthetic_hashes": 179,
+      "boxes": 179,
+      "unannotated_records": 0
+    },
+    "junhan_traffic_cone": {
+      "records": 48,
+      "hashes": 47,
+      "synthetic_hashes": 0,
+      "boxes": 167,
+      "unannotated_records": 0
+    },
+    "firenet": {
+      "records": 227,
+      "hashes": 225,
+      "synthetic_hashes": 0,
+      "boxes": 313,
+      "unannotated_records": 0
+    },
+    "warehouse_synthetic_spill": {
+      "records": 213,
+      "hashes": 213,
+      "synthetic_hashes": 213,
+      "boxes": 0,
+      "unannotated_records": 213
+    },
+    "wikimedia_commons_elevator_candidates": {
+      "records": 84,
+      "hashes": 84,
+      "synthetic_hashes": 0,
+      "boxes": 0,
+      "unannotated_records": 84
+    }
+  },
+  "classes": [
+    {
+      "id": 0,
+      "class": "person",
+      "images_with_boxes": 7378,
+      "boxes": 26960,
+      "new_images_with_boxes": 918,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 7378,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 1,
+      "class": "car",
+      "images_with_boxes": 2527,
+      "boxes": 7611,
+      "new_images_with_boxes": 33,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 2527,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 2,
+      "class": "motorcycle",
+      "images_with_boxes": 1104,
+      "boxes": 2065,
+      "new_images_with_boxes": 1,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 1104,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 3,
+      "class": "bus",
+      "images_with_boxes": 1106,
+      "boxes": 1802,
+      "new_images_with_boxes": 2,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 1106,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 4,
+      "class": "bicycle",
+      "images_with_boxes": 1125,
+      "boxes": 2487,
+      "new_images_with_boxes": 14,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 1125,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 5,
+      "class": "stairs",
+      "images_with_boxes": 2476,
+      "boxes": 2995,
+      "new_images_with_boxes": 409,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 2476,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 6,
+      "class": "pothole",
+      "images_with_boxes": 4546,
+      "boxes": 9173,
+      "new_images_with_boxes": 0,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 4546,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 7,
+      "class": "pole",
+      "images_with_boxes": 616,
+      "boxes": 1020,
+      "new_images_with_boxes": 0,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 616,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 8,
+      "class": "traffic_sign",
+      "images_with_boxes": 1454,
+      "boxes": 3545,
+      "new_images_with_boxes": 0,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 1454,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 9,
+      "class": "obstacle",
+      "images_with_boxes": 1133,
+      "boxes": 2096,
+      "new_images_with_boxes": 10,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 1133,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 10,
+      "class": "trash_bin",
+      "images_with_boxes": 1402,
+      "boxes": 2220,
+      "new_images_with_boxes": 0,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 1402,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 11,
+      "class": "ramp",
+      "images_with_boxes": 129,
+      "boxes": 143,
+      "new_images_with_boxes": 129,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 129,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 12,
+      "class": "curb_step",
+      "images_with_boxes": 500,
+      "boxes": 738,
+      "new_images_with_boxes": 500,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 500,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 13,
+      "class": "door",
+      "images_with_boxes": 511,
+      "boxes": 715,
+      "new_images_with_boxes": 511,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 511,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 14,
+      "class": "glass_door",
+      "images_with_boxes": 500,
+      "boxes": 2060,
+      "new_images_with_boxes": 500,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 500,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 15,
+      "class": "chair",
+      "images_with_boxes": 617,
+      "boxes": 3058,
+      "new_images_with_boxes": 617,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 617,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 16,
+      "class": "table_desk",
+      "images_with_boxes": 731,
+      "boxes": 1590,
+      "new_images_with_boxes": 731,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 731,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 17,
+      "class": "backpack",
+      "images_with_boxes": 500,
+      "boxes": 829,
+      "new_images_with_boxes": 500,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 500,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 18,
+      "class": "cable",
+      "images_with_boxes": 179,
+      "boxes": 179,
+      "new_images_with_boxes": 179,
+      "synthetic_images_with_boxes": 179,
+      "real_images_with_boxes": 0,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 19,
+      "class": "wet_floor",
+      "images_with_boxes": 0,
+      "boxes": 0,
+      "new_images_with_boxes": 0,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 0,
+      "unannotated_candidates": 213
+    },
+    {
+      "id": 20,
+      "class": "construction_barrier",
+      "images_with_boxes": 13,
+      "boxes": 160,
+      "new_images_with_boxes": 13,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 13,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 21,
+      "class": "handrail",
+      "images_with_boxes": 400,
+      "boxes": 633,
+      "new_images_with_boxes": 400,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 400,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 22,
+      "class": "elevator",
+      "images_with_boxes": 0,
+      "boxes": 0,
+      "new_images_with_boxes": 0,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 0,
+      "unannotated_candidates": 84
+    },
+    {
+      "id": 23,
+      "class": "cone",
+      "images_with_boxes": 63,
+      "boxes": 199,
+      "new_images_with_boxes": 63,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 63,
+      "unannotated_candidates": 0
+    },
+    {
+      "id": 24,
+      "class": "fire_extinguisher",
+      "images_with_boxes": 225,
+      "boxes": 313,
+      "new_images_with_boxes": 225,
+      "synthetic_images_with_boxes": 0,
+      "real_images_with_boxes": 225,
+      "unannotated_candidates": 0
+    }
+  ],
+  "box_origins": {
+    "source_labels_origin_not_explicit": 69488,
+    "legacy": 403,
+    "derived_boxes_from_human_semantic_mask": 2060,
+    "publisher_human_2d_boxes": 294,
+    "publisher_semantic_mask_to_extent": 179,
+    "publisher_voc_boxes": 167
+  },
+  "exact_duplicate_groups": [
+    {
+      "sha256": "8ec54507ec0c4a8b7221139af9cf75dd5bc7080c0b2abb1645a0f97caddc33f1",
+      "ids": [
+        "junhan_traffic_cone_12",
+        "junhan_traffic_cone_14"
+      ],
+      "label_conflict": true,
+      "source_splits": [
+        "None"
+      ]
+    },
+    {
+      "sha256": "82af7b44439af2e1309448bc96231dca6b1527c2bcbbb10a74b6b0f67c6d7ee4",
+      "ids": [
+        "firenet_0158",
+        "firenet_1177"
+      ],
+      "label_conflict": true,
+      "source_splits": [
+        "None"
+      ]
+    },
+    {
+      "sha256": "7f4ef19d35cd9885a2d3c384bbca4936b6c864dad26e91dfe8e57bacb392255e",
+      "ids": [
+        "firenet_0995",
+        "firenet_1225"
+      ],
+      "label_conflict": true,
+      "source_splits": [
+        "None"
+      ]
+    }
+  ],
+  "errors": [],
+  "created_at": "2026-09-22T03:44:23.461630+00:00",
+  "taxonomy": "magicvision-campus-v4-25",
+  "baseline_manifest_sha256": "364b12c1ed5766a191d5512a5b84bad245d1013f65de56203cf38d4aefbcf153",
+  "baseline_unique_images": 19444,
+  "input_manifests": [
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\expanded_v3\\manifest.jsonl",
+      "sha256": "364b12c1ed5766a191d5512a5b84bad245d1013f65de56203cf38d4aefbcf153"
+    },
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_openimages_v4\\manifest.jsonl",
+      "sha256": "713082f1130ffe4799f31f16a8f5ebe85d93b65556da9e156d70ba5f00af5335"
+    },
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_access_v4\\wheelmap\\manifest.jsonl",
+      "sha256": "5a1fa99e65eb233254ff9870542b0c6283523a4a82ba8bca8ebd86e0c38ec2b3"
+    },
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_glass_v4\\manifest.jsonl",
+      "sha256": "af23e4ac291ea3604eba5b316898e679b346a4c56882c12230fa3aa5ae29c749"
+    },
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_hazards_v4\\autoexpert\\manifest.jsonl",
+      "sha256": "7516e43599239eecacae791d715a4a29c9e5b3c2fa625dae21c0134d883a29a0"
+    },
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_hazards_v4\\cables_synthetic\\manifest.jsonl",
+      "sha256": "827f08260c32e6c98d91641ce0feab89be84b1d0a5704721eb17c967e078a8d0"
+    },
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_hazards_v4\\cones_hf\\manifest.jsonl",
+      "sha256": "bb592dc71fad17bafd02ab7f65cce322ea40cb8d3339426c7fad373c3940b3cb"
+    },
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_hazards_v4\\firenet\\manifest.jsonl",
+      "sha256": "6fb92d8731e71ee4acc2eaf72357113f4d919c0f1e431113ce04acbabef5aa5b"
+    },
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_hazards_v4\\wet_floor_synthetic\\candidate_manifest.jsonl",
+      "sha256": "c2dc6516661ed666a6ce5cea04e75448766ed6605de304202c28fe2ee0fbf466"
+    },
+    {
+      "path": "D:\\Escritorio\\Tesis\\magicvision_ml_improvement\\datasets\\campus_elevator_v4\\manifest.jsonl",
+      "sha256": "6079db86083174a68f0a07244842f49051ccbe6773bbdd5cf62a9a99bc983f72"
+    }
+  ],
+  "verification_scope": "All labels; new image hashes and decoding. Baseline pixel validation inherited from quality_v3.",
+  "duplicate_or_source_groups": 552,
+  "source_split_conflict_groups": 183,
+  "manifest_sha256": "131a6df73238def9234127ae3874adfe1eebe11f8ab3c164e5b4b58fc0ade872"
+}

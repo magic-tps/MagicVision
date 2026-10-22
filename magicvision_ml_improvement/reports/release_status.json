@@ -1,0 +1,11 @@
+{
+  "candidate_ready": false,
+  "reason": "Reviewed complete eleven-class dataset unavailable",
+  "operational_checkpoint_sha256": "704361e5746e23160b95976d342484d250a7931fabbbe798dd1d4e48d269367f",
+  "rollback_artifact_sha256": "c6c5a0d33f847dd3a34c5c56627a788295ad4d623c03be10d0fe930dc125d5f4",
+  "production_deployed": false,
+  "apk_published": false,
+  "installed_phone_apk_verified": false,
+  "cloud_architecture_verified_remotely": false,
+  "new_training_runs": []
+}

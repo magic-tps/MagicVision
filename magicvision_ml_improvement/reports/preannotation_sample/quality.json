@@ -1,0 +1,100 @@
+{
+  "images": 16,
+  "annotations_by_class": {
+    "obstacle": 1,
+    "person": 30,
+    "car": 1,
+    "bicycle": 1
+  },
+  "errors": [],
+  "duplicate_annotations": [],
+  "duplicate_or_session_clusters": [],
+  "review_queue": [
+    {
+      "id": "preannotation_0001787dfadcf6bc",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_00019e09fe61747c",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_0003a351caf34972",
+      "reason": "unverified empty label"
+    },
+    {
+      "id": "preannotation_0003a351caf34972",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_00043633834f5a1c",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_0007ac467f3e0260",
+      "reason": "unverified empty label"
+    },
+    {
+      "id": "preannotation_0007ac467f3e0260",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_0009399f91f86b40",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_000a2cf2ac516a22",
+      "reason": "unverified empty label"
+    },
+    {
+      "id": "preannotation_000a2cf2ac516a22",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_000c01d8269e1554",
+      "reason": "unverified empty label"
+    },
+    {
+      "id": "preannotation_000c01d8269e1554",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_000c8bfacf9a4354",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_000d29ebaf4351d3",
+      "reason": "unverified empty label"
+    },
+    {
+      "id": "preannotation_000d29ebaf4351d3",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_000d989557e453a7",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_000db814e722951d",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_000dc470e568ef7c",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_000e414d52843239",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_000e44a0fd6d2b6d",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    },
+    {
+      "id": "preannotation_00103b9719cc1cda",
+      "reason": "MODEL PROPOSALS ONLY; stairs, occlusions and missing classes need human review"
+    }
+  ],
+  "conflicting_exact_duplicates": [],
+  "approved_complete": 0
+}

@@ -1,0 +1,30 @@
+# Initial experiment, not evidence of model quality. Keep validation/test held out.
+model_family: yolo26
+model_variant: m
+taxonomy: magicvision-campus22-v1
+train:
+  epochs: 100
+  patience: 20
+  imgsz: 640
+  batch: 4
+  optimizer: AdamW
+  lr0: 0.001
+  lrf: 0.01
+  seed: 42
+  deterministic: true
+  workers: 0
+  cache: false
+  amp: true
+  hsv_h: 0.01
+  hsv_s: 0.3
+  hsv_v: 0.25
+  degrees: 3.0
+  translate: 0.05
+  scale: 0.2
+  perspective: 0.0001
+  fliplr: 0.5
+  flipud: 0.0
+  mosaic: 0.2
+  close_mosaic: 15
+  mixup: 0.0
+  copy_paste: 0.0

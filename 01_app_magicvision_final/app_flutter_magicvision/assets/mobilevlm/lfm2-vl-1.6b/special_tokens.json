@@ -1,0 +1,14 @@
+{
+  "eos_token_id": 7,
+  "pad_token_id": 0,
+  "bos_token_id": 1,
+  "vocab_size": 64400,
+  "model_max_length": 1000000000000000019884624838656,
+  "special_tokens": {
+    "7": "<|im_end|>",
+    "0": "<|pad|>",
+    "1": "<|startoftext|>"
+  },
+  "additional_special_tokens": [],
+  "chat_template": "{{bos_token}}{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n'}}{% if message['content'] is string %}{{ message['content'] }}{% else %}{% for content in message['content'] %}{% if content['type'] == 'image' %}{{ '<image>' }}{% elif content['type'] == 'text' %}{{ content['text'] }}{% endif %}{% endfor %}{% endif %}{{'<|im_end|>\n'}}{% endfor %}{% if add_generation_prompt %}{{'<|im_start|>assistant\n' }}{% endif %}"
+}

@@ -1,0 +1,73 @@
+{
+  "scope": "Local real model and production API/Dart; simulated S3/SageMaker transport and camera; no audible TTS test",
+  "response": {
+    "request_id": "56332603-078e-4734-9892-a0f3efdd8707",
+    "processing_time_ms": 379.16,
+    "image_width": 640,
+    "image_height": 315,
+    "detections": [
+      {
+        "class_id": 0,
+        "label": "person",
+        "confidence": 0.9225113391876221,
+        "bbox": {
+          "left": 0.6985149383544922,
+          "top": 0.38061195611953735,
+          "right": 0.7815976738929749,
+          "bottom": 0.7651214003562927
+        }
+      }
+    ],
+    "model_version": "704361e5746e23160b95976d342484d250a7931fabbbe798dd1d4e48d269367f"
+  },
+  "assessment": {
+    "type": "environment",
+    "description": "Se detecta una persona cerca. Objetos detectados: persona a la derecha.",
+    "riskLevel": "medio",
+    "detectedObjects": [
+      "person"
+    ],
+    "recommendation": "Avanza lentamente y manten distancia.",
+    "suggestedAction": "Avanza con precaucion",
+    "confidence": 0.9225113391876221,
+    "timestamp": "2026-09-20T20:44:48.940219",
+    "source": "aws_sagemaker"
+  },
+  "speech_text": "Se detecta una persona cerca. Objetos detectados: persona a la derecha. Avanza lentamente y manten distancia. Accion sugerida: Avanza con precaucion.",
+  "states": [
+    "preparing",
+    "capturing",
+    "uploading",
+    "processing",
+    "processing",
+    "processing",
+    "resultReady"
+  ],
+  "metrics": [
+    {
+      "request_id": "56332603-078e-4734-9892-a0f3efdd8707",
+      "timestamp": "2026-09-21T01:44:44.894401Z",
+      "camera_source": "test_uvc",
+      "original_resolution": {
+        "width": 640,
+        "height": 315
+      },
+      "inference_resolution": {
+        "width": 640,
+        "height": 315
+      },
+      "jpeg_size_bytes": 51870,
+      "network_latency_ms": 1122,
+      "cloud_inference_ms": 379.16,
+      "total_processing_ms": 4050,
+      "detections_count": 1,
+      "risk_level": "medio",
+      "recommendation": "Avanza lentamente y manten distancia.",
+      "service_preparation_ms": 2328,
+      "status": "success",
+      "model_version": "704361e5746e23160b95976d342484d250a7931fabbbe798dd1d4e48d269367f",
+      "captured_at": "2026-09-21T01:44:47.232120Z",
+      "capture_age_ms": 1713
+    }
+  ]
+}

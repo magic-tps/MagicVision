@@ -1,0 +1,14 @@
+[
+  {
+    "name": "yolo26m.pt",
+    "source": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m.pt",
+    "bytes": 44255705,
+    "sha256": "401cea9ab23ad19246ff7744859816bc599f350e93c9dd30367b6f0a0745d0b7"
+  },
+  {
+    "name": "yolo26m-depth.pt",
+    "source": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-depth.pt",
+    "bytes": 46926343,
+    "sha256": "c0ff310571f0f159436e95a2a4fa3f8c40e1fbf36fac66a211347bd189990165"
+  }
+]

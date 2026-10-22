@@ -1,0 +1,7 @@
+FROM public.ecr.aws/lambda/python:3.11
+COPY requirements.txt /tmp/requirements.txt
+RUN python -m pip install --no-cache-dir --no-compile -r /tmp/requirements.txt --target /asset
+COPY *.py /asset/
+RUN PYTHONPATH=/asset python -c "import api, async_jobs; from PIL import Image; assert callable(api.handler)"
+COPY package_zip.py /tmp/package_zip.py
+ENTRYPOINT ["python", "/tmp/package_zip.py"]

@@ -1,0 +1,52 @@
+[
+  {
+    "path": "backend\\lambda\\api.py",
+    "before_sha256": "32afccf2882d30da4810f881ed527169ea1bd3dd61afe6c1e41b75b9341aed45",
+    "after_sha256": "7952389dcf437d9bed47f2106ce90429ad0d7363d38ecca22ed32cd6f8d1ce8b"
+  },
+  {
+    "path": "backend\\lambda\\schema.py",
+    "before_sha256": "927eae33a432d5b0a95944d8bdbb8de3008244135dfa5ad1f98d76d745f28270",
+    "after_sha256": "377a5ad4a18cb7da7ccabe309d963a7409a216506e419643f2ef84663022aee5"
+  },
+  {
+    "path": "backend\\sagemaker\\serve.py",
+    "before_sha256": "cd4cb9df569eae4ad86bc90542a4f7a09d39813096d9cbef5bcffdf4d8263692",
+    "after_sha256": "3fd9109fef56996d70de34666e411f7fdf93d9c6c57543e449ccfa32dff81e69"
+  },
+  {
+    "path": "lib\\main.dart",
+    "before_sha256": "32b279ac17387371ad41be6563b7d3a346e07c45014b80411e8098879d570e02",
+    "after_sha256": "9f6713b5ce9aa21ed2404f67cd3f21284f447033a09503e9cd63273a204b7196"
+  },
+  {
+    "path": "lib\\core\\config\\inference_image_config.dart",
+    "before_sha256": "5422e858b4be31b2c15daffbb943633b2a955c0826e0945ef7e63390a5bd0e45",
+    "after_sha256": "3e9b2b1c6233cb391e0fcd4a85fa40a1d18b1dcd5a0aff7165249f2c9b2c1adc"
+  },
+  {
+    "path": "lib\\core\\models\\detection_response.dart",
+    "before_sha256": "fb1fffdb067300da66494c8f2d7c4fc5fe27d96a3cb30805751755b007065cd6",
+    "after_sha256": "da74aba42bc3ccf0b7cd1602321eb2a7a001fad2541dda4243c70ea8f6043842"
+  },
+  {
+    "path": "lib\\core\\services\\inference_image_processor.dart",
+    "before_sha256": "74b55b30dd8898a299ee58525a609b74bd17274023ee7114c49dc977d2e2fee0",
+    "after_sha256": "4cbfaaed4f996aa45b60aaf2542323c0e0f812501779ed7c56f8a831dfa7def8"
+  },
+  {
+    "path": "lib\\core\\services\\risk_assessment_service.dart",
+    "before_sha256": "5bdb27707f7e4482fa3c64ad08397bbd95980005396790301c73c02e7d8effba",
+    "after_sha256": "1c104df20dd5bc286d64cdbc919f34c14be27b71f4a6f9e4a87604aac826a597"
+  },
+  {
+    "path": "lib\\core\\services\\vision_analysis_service.dart",
+    "before_sha256": "81582ca251307a59c9221fa67d2bc4b7af2f3a2ea9d9413e6c49992de8808a24",
+    "after_sha256": "544100c627ccd568c2c241b521ec34ad55f8b8b46cf4fbcaca18a468fca9fb21"
+  },
+  {
+    "path": "test\\widget_test.dart",
+    "before_sha256": "9e3c4835121395fdc66dc987c571708e906cb71b3313df500eff8ed04fa58dd3",
+    "after_sha256": "44023ff563a232eeef62b517d93d007c427e92ec798c3c8e9b1cc8f036b784f0"
+  }
+]
